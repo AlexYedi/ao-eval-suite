@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1794339909.808154,
+ "end": 1794339921.213469,
+ "secs": 11.41,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what actually happened.\n\nWhat worked:\n\u2192 Reps reclaimed about 5 hours a week from CRM updates.\n\u2192 Follow-up emails went out same day, not three days later.\n\u2192 Managers finally heard real customer objections, not summaries.\n\nWhat didn't:\n\u2192 Spotty cell coverage in rural territories broke recordings.\n\u2192 Some buyers hesitated until we asked consent upfront.\n\nThe biggest lesson: adoption followed trust, not training. Reps used it when they saw managers coaching with it, not auditing with it.\n\nWould we keep it? Yes, with clear consent scripts and offline capture.\n\nNext quarter, we're expanding to three regional teams, starting with onboarding.\n\nWhat did your team learn from your first AI pilot?",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 692,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1624,
+  "output_tokens_details": {
+   "thinking_tokens": 1354
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 692,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1624,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 692,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 692
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.019012
+}

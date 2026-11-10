@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "start": 1794339661.506678,
+ "end": 1794339665.760416,
+ "secs": 4.25,
+ "text": "We piloted an AI note-taker with 12 field reps for one quarter. Here's what we learned.\n\n**The wins:**\n- Reps reclaimed about 4 hours a week previously spent on CRM updates.\n- Follow-up emails went out same-day, not \"when I get to it.\"\n- Managers finally heard real customer language, not summaries of summaries.\n\n**The surprises:**\n- Customers cared less about the tool than we feared. Asking consent up front took ten seconds and built trust.\n- Transcripts exposed coaching gaps we'd never seen, especially in discovery questions.\n- Accuracy dipped in noisy plant tours and parking-lot calls.\n\n**The lesson:** The tool didn't make reps better. It gave them time and data to get better.\n\nNext quarter: we're tying notes to deal reviews.\n\nWhat would you measure first?",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 688,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 276,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 688,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 276,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 688,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 688
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005516
+}

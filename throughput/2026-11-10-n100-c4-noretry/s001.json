@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "start": 1794339633.811959,
+ "end": 1794339638.1881118,
+ "secs": 4.38,
+ "text": "We piloted an AI note-taker with 14 field reps for one quarter. Here's what we learned.\n\n**The wins:** Reps reclaimed roughly 5 hours a week on CRM updates. Follow-up emails went out same-day instead of next-day. Managers finally saw what customers actually said, not just what reps remembered.\n\n**The surprises:** Adoption spiked when reps could edit summaries before syncing. It stalled when they couldn't. Customers rarely objected to recording, as long as we asked upfront and explained why.\n\n**The misses:** Noisy sites and side conversations in hallways produced messy transcripts. Accuracy on product names needed a custom vocabulary list.\n\n**Our takeaway:** The tool didn't make reps better sellers. It gave them time and context to be better ones.\n\nPiloting something similar? Start with consent and editing controls.\n\n*(Synthetic scenario for illustration.)*",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 688,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 688,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 300,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 688,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 688
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005756
+}

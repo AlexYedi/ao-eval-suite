@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1794339895.0331242,
+ "end": 1794339900.9990358,
+ "secs": 5.97,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what we learned.\n\n**1. Reps got time back.** Post-call admin dropped by roughly 40%. Reps spent that time on follow-ups and prep, not typing.\n\n**2. Notes got better, not just faster.** Next steps, objections, and budget signals were captured consistently, even from reps who rarely logged them.\n\n**3. Trust took work.** Some buyers hesitated at first. Reps who asked consent upfront and explained the purpose saw almost no pushback.\n\n**4. Managers coached differently.** Reviewing summaries replaced ride-alongs for routine feedback, freeing in-person time for complex deals.\n\n**5. Accuracy needs a human check.** Product names and numbers occasionally slipped, so we kept a quick review step.\n\nNet result: fewer blank CRM fields, sharper follow-ups, and happier reps.\n\nWould your team pilot one?\n\n*(Scenario is synthetic; figures are illustrative.)*",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 690,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 336,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 690,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 336,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 690,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 690
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.006123999999999999
+}

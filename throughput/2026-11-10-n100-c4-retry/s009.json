@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1794339812.46264,
+ "end": 1794339823.4013429,
+ "secs": 10.94,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what we learned.\n\nReps got time back. Post-call admin dropped from about 25 minutes to under 10, which meant fresher CRM data and fewer late evenings.\n\nConsent mattered. Buyers in regulated industries asked questions early, and disclosing upfront built trust.\n\nSummaries aren't strategy. The tool captured what was said, not what was meant, so managers still had to coach the why.\n\nAdoption followed peers, not mandates. Two respected reps shared their workflows, and usage doubled within three weeks.\n\nOur takeaway: automate the paperwork, protect the judgment. Good tools free reps to do what only humans can: build relationships.\n\nWhat did your team learn from your pilot?",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 688,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1596,
+  "output_tokens_details": {
+   "thinking_tokens": 1344
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 688,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1596,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 688,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 688
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.018716
+}

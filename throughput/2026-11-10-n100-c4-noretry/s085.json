@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "start": 1794339742.9282298,
+ "end": 1794339747.42625,
+ "secs": 4.5,
+ "text": "We piloted an AI note-taker with 14 field reps for one quarter. Here's what we learned.\n\n**The wins:**\n- Reps reclaimed about 5 hours a week previously spent on CRM updates.\n- Follow-up emails went out same-day instead of 2\u20133 days later.\n- Managers could finally coach from real conversations, not rep summaries.\n\n**The surprises:**\n- Customers cared more about consent than features. Asking upfront built trust.\n- Summaries were only as good as the questions reps asked.\n- Adoption jumped once we shared top-performing call clips internally.\n\n**The misses:**\n- Accuracy dipped in noisy plant and warehouse visits.\n- Some reps feared surveillance until we clarified the purpose.\n\nOur takeaway: AI doesn't replace judgment. It gives reps time back to use it.\n\nWhat did your team learn from your first AI pilot?",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 690,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 292,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 690,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 292,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 690,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 690
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005684
+}

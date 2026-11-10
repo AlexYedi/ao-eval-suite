@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1794339862.073654,
+ "end": 1794339866.130126,
+ "secs": 4.06,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what we learned.\n\n**1. Time came back.** Reps cut post-call admin from 25 minutes to under 10. That time went into prep and follow-up.\n\n**2. CRM data got better.** Notes were consistent, so managers finally trusted pipeline reviews.\n\n**3. Trust mattered more than tech.** Adoption jumped once we told customers upfront and let them opt out.\n\n**4. Coaching changed.** Managers reviewed real conversations instead of rep summaries.\n\n**5. Not everything worked.** Noisy job sites and site-visit chatter hurt accuracy, so reps still jot a few key points by hand.\n\nThe takeaway: AI doesn't replace judgment in the field. It clears space for it.\n\nWould your team try it?\n\n*(Word count: ~120. All figures are illustrative for this synthetic scenario.)*",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 686,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 300,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 686,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 300,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 686,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 686
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005748
+}

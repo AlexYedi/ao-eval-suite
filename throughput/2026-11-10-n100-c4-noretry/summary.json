@@ -1,0 +1,11 @@
+{
+ "n": 100,
+ "ok": 98,
+ "failed": 2,
+ "wall_secs": 137,
+ "samples_per_hour": 2575.2,
+ "median_secs": 4.33,
+ "p95_secs": 11.06,
+ "input_tokens_median": 692.0,
+ "kill_gate_60_per_hour": "PASS"
+}

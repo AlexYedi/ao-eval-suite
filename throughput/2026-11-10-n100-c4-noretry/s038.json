@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "start": 1794339682.862009,
+ "end": 1794339686.947068,
+ "secs": 4.09,
+ "text": "We piloted an AI note-taker with a 12-rep field sales team for one quarter. Here's what we learned.\n\n**1. Time came back.** Reps cut post-call admin from 25 minutes to about 8. That's real selling time returned.\n\n**2. CRM quality improved.** Notes were more complete, and next steps were actually logged.\n\n**3. Reps hesitated at first.** Some worried about customers feeling recorded. Opening every call with a clear consent line fixed that.\n\n**4. Managers coached better.** Reviewing call summaries beat relying on rep recollection.\n\n**5. It isn't magic.** Noisy job sites and heavy accents hurt accuracy, so we still spot-check.\n\nOur verdict: expand the pilot, keep humans in the loop.\n\nWhat's your team's biggest admin drag?\n\n*(Scenario is synthetic; figures are illustrative.)*",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 688,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 289,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 688,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 289,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 688,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 688
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005646
+}

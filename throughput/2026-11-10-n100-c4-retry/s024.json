@@ -1,0 +1,43 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1794339832.19489,
+ "end": 1794339843.0491211,
+ "secs": 10.85,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what we learned.\n\n**Reps got time back.** Admin after visits dropped from roughly 45 minutes a day to under 15.\n\n**CRM data improved.** Next steps and decision-makers were actually logged, because the summary did the typing.\n\n**Trust took work.** Reps worried recordings would be used to police them. We said clearly: coaching only, never scorekeeping.\n\n**Customers mostly said yes,** but asking first mattered more than the tool.\n\n**Adoption followed the managers.** Teams whose leads reviewed summaries in pipeline meetings stuck with it.\n\nThe takeaway: the tech was the easy part. Clear rules and manager habits decided the outcome.\n\nWhat would you want to know before piloting?",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 688,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1580,
+  "output_tokens_details": {
+   "thinking_tokens": 1321
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 688,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1580,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 688,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 688
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.018556000000000003
+}

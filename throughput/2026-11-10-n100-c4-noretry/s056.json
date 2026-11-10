@@ -1,0 +1,42 @@
+{
+ "ok": true,
+ "start": 1794339703.564524,
+ "end": 1794339715.2981062,
+ "secs": 11.73,
+ "text": "We piloted an AI note-taker with our field sales team for one quarter. Here's what we learned. Our pilot covered 18 field reps across two sales regions.\n\nReps got time back. Average post-meeting admin dropped from 25 minutes to under 10.\n\nNotes got better, not just faster. Next steps and objections were captured consistently, so handoffs to solutions engineers stopped losing context.\n\nTrust came first. Buyers asked about recording in 3 of 40 meetings. Telling them upfront made it a non-issue.\n\nAdoption followed managers. Teams whose managers reviewed summaries in pipeline calls hit 90% usage. Others stalled near 50%.\n\nThe takeaway: the tool saved time, but the habit change drove the value.\n\nWhat would you measure in your own pilot?\n\n*(All figures are invented for this synthetic scenario.)*",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 692,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 1628,
+  "output_tokens_details": {
+   "thinking_tokens": 1348
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 692,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1628,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 692,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 692
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.019052000000000003
+}

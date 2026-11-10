@@ -1,0 +1,4 @@
+.env
+*.raw
+*.err
+.DS_Store
