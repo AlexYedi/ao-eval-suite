@@ -1,0 +1,4 @@
+# Frozen inputs for every study sample. sample.sh refuses to run if the installed CLI differs.
+# Both values are copied into prereg/HASHES.json at sign. Changing either after sign is a deviation.
+PINNED_MODEL=claude-sonnet-5-5
+PINNED_CLAUDE_VERSION=2.1.322
