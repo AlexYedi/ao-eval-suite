@@ -1,4 +1,8 @@
-# Frozen inputs for every study sample. sample.sh refuses to run if the installed CLI differs.
+# Frozen inputs for every study sample. The runner calls its own copy of the CLI (PINNED_CLAUDE_BIN), never
+# the `claude` on PATH, so routine Claude Code updates can't move it. sample.sh refuses to run unless that
+# binary's sha256 and version match below. Rebuild the copy with runner/pin-cli.sh.
 # Both values are copied into prereg/HASHES.json at sign. Changing either after sign is a deviation.
 PINNED_MODEL=claude-sonnet-5-5
 PINNED_CLAUDE_VERSION=2.1.322
+PINNED_CLAUDE_BIN="$HOME/.local/share/claude-pinned/claude-2.1.322"
+PINNED_CLAUDE_SHA256=a9d237949db816a0b7afd88a9a8e1df36b3a597a30f5a41d1c0539eb180a3450

@@ -7,9 +7,15 @@ HERE="$(cd "$(dirname "$0")" && pwd)"
 # shellcheck source=/dev/null
 . "$HERE/PIN"
 SYS="$(cat "$1")"; USR="$(cat "$2")"; OUT="$(cd "$(dirname "$3")" && pwd)/$(basename "$3")"; MODEL="${4:-$PINNED_MODEL}"
-CLI_VERSION="$(claude --version | awk '{print $1}')"
-if [ "$CLI_VERSION" != "$PINNED_CLAUDE_VERSION" ]; then
-  echo "claude CLI is $CLI_VERSION but runner/PIN says $PINNED_CLAUDE_VERSION; refusing to sample." | tee -a "$OUT.err" >&2
+# Use the runner's own pinned copy, not the `claude` on PATH (which auto-updates). Fail closed on any mismatch.
+CLAUDE="$PINNED_CLAUDE_BIN"
+if [ ! -x "$CLAUDE" ]; then
+  echo "pinned CLI missing at $CLAUDE; run runner/pin-cli.sh. Refusing to sample." | tee -a "$OUT.err" >&2; exit 3
+fi
+CLI_SHA="$(shasum -a 256 "$CLAUDE" | awk '{print $1}')"
+CLI_VERSION="$("$CLAUDE" --version | awk '{print $1}')"
+if [ "$CLI_SHA" != "$PINNED_CLAUDE_SHA256" ] || [ "$CLI_VERSION" != "$PINNED_CLAUDE_VERSION" ]; then
+  echo "pinned CLI is $CLI_VERSION ($CLI_SHA), runner/PIN says $PINNED_CLAUDE_VERSION ($PINNED_CLAUDE_SHA256); refusing to sample." | tee -a "$OUT.err" >&2
   exit 3
 fi
 WORK="$(mktemp -d)"; trap 'rm -rf "$WORK"' EXIT
@@ -20,7 +26,7 @@ START=$(python3 -c 'import time;print(time.time())')
 ATTEMPTS=0
 for i in 1 2 3; do
   ATTEMPTS=$i
-  DISABLE_AUTOUPDATER=1 CLAUDE_CODE_DISABLE_AUTO_MEMORY=1 claude -p --model "$MODEL" \
+  DISABLE_AUTOUPDATER=1 CLAUDE_CODE_DISABLE_AUTO_MEMORY=1 "$CLAUDE" -p --model "$MODEL" \
     --system-prompt "$SYS" --setting-sources "" --strict-mcp-config \
     --mcp-config '{"mcpServers":{}}' --tools "" --output-format json \
     "$USR" > "$OUT.raw" 2>> "$OUT.err" || echo "EXIT $? attempt $i" >> "$OUT.err"

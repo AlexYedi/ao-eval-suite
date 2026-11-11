@@ -8,7 +8,7 @@
 | Sign date | TODO (target 2026-11-14) |
 | Registration hash | TODO (sha256 of the manifest in `prereg/HASHES.json`, written at sign time) |
 | Spec of record | Plan v4 (2026-11-08), lane A; Linear YED-365 |
-| Model under test | Claude Sonnet 5.5 (`claude-sonnet-5-5`, a full model id, never an alias) via `claude -p` at Claude Code 2.1.322. Both are pinned in `runner/PIN`, the runner refuses to sample on any other CLI version, and both are frozen in `HASHES.json` at sign |
+| Model under test | Claude Sonnet 5.5 (`claude-sonnet-5-5`, a full model id, never an alias) via `claude -p` at Claude Code 2.1.322. Both are pinned in `runner/PIN`. The runner calls its own copy of the CLI binary, not the auto-updating `claude` on PATH, and refuses to sample unless that copy's sha256 and version match the pin. Both are frozen in `HASHES.json` at sign |
 
 This document is frozen when signed. After the sign date, nothing above the "Deviations" section changes. Changes go in `prereg/DEVIATIONS.md` (see section 11).
 
