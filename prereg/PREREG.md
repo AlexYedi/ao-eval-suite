@@ -4,7 +4,7 @@
 |---|---|
 | Study id | `ppt-2026-11` |
 | Author | Alex Yedibalian |
-| Status | DRAFT. Not signed. No study sample exists. |
+| Status | DRAFT. Section 5 filled from the fallback source (2026-11-14). Not signed. No study sample exists. |
 | Sign date | TODO (target 2026-11-14) |
 | Registration hash | TODO (sha256 of the manifest in `prereg/HASHES.json`, written at sign time) |
 | Spec of record | Plan v4 (2026-11-08), lane A; Linear YED-365 |
@@ -60,13 +60,20 @@ The primary comparison for each RED type is one, named in advance: **B vs A** on
 
 The procedure that selects them is in `prereg/failure-type-selection.md`. It is frozen with this document. The list below is filled from that procedure and nothing else.
 
-TODO: final failure-type list. Up to 8 rows. Each row is frozen at sign.
+**Source used: the fallback (decided 2026-11-14, Linear YED-402).** The primary source, Alex's review comments in the Notion Content Drafts database, held 17 countable comments on 6 drafts out of 935 drafts swept. That is below the 60-comment trigger in `failure-type-selection.md` §1, so the fallback applies as written: the eligible rows of the anti-patterns document, in file order. The fallback has no counting rule, so score, count and recurrence are n/a for every row. The types come from the author's style guide, not from measured corrections; the results page says so. Candidate list and exclusions: `prereg/candidate-types.md`.
 
 | id | Short name | Predicate (one yes/no question) | Grader | Shaping? | Fixture file |
 |---|---|---|---|---|---|
-| T1 | TODO | TODO | code / blind / both | yes / no | `fixtures/T1/` |
-| T2 | TODO | TODO | | | |
-| … | | | | | |
+| T1 | Omnipresent buzzwords | Does the text contain any of: leverage, unlock, synergy, ecosystem, disrupt (any inflection)? | code | yes | `fixtures/T1/` |
+| T2 | Jargon stacking | Does any single sentence chain three or more abstract tech/marketing modifiers (e.g. 'AI-powered digital transformation leveraging cutting-edge solutions') with no concrete referent? | blind | yes | `fixtures/T2/` |
+| T3 | Super salesy | Does the text contain any of: game-changer, game changing, revolutionary, 'excited to announce' / 'I'm excited to'? | code | no | `fixtures/T3/` |
+| T4 | Thought-leader cosplay | Does the text apply any of 'thought leader', 'visionary', 'industry leader' to the author or a speaker? | code | no | `fixtures/T4/` |
+| T5 | Empty validation (DM) | Does the DM contain a content-free compliment such as 'Love your work', 'Great post', 'This is amazing' (or a close variant)? | code | no | `fixtures/T5/` |
+| T6 | Faux casual fillers | Does the text contain any of: 'I'm curious', 'I'd love to hear', 'I'm wondering'? | code | yes | `fixtures/T6/` |
+| T7 | Observer framing (DM) | Does the DM open or anchor with 'Saw you were…' / 'Noticed you're…' / 'I saw that you…'? | code | no | `fixtures/T7/` |
+| T8 | Citing studies in DMs | Does the DM cite a study, survey, report or percentage statistic? | both | no | `fixtures/T8/` |
+
+Next-ranked if a type is removed under `failure-type-selection.md` §7: rank 9, "Leading with company/product name", then rank 10 onward in file order (`prereg/candidate-types.md`). Shaping types (arm F runs if they go RED): T1, T2, T6.
 
 Rules for the table:
 
