@@ -40,8 +40,8 @@ Generated 2026-11-11 by the procedure in `failure-type-selection.md`.
 | T1 | Omnipresent buzzwords | Does the text contain any of: leverage, unlock, synergy, ecosystem, disrupt (any inflection)? | code | yes | n/a | n/a | n/a |
 | T2 | Jargon stacking | Does any single sentence chain three or more abstract tech/marketing modifiers (e.g. 'AI-powered digital transformation leveraging cutting-edge solutions') with no concrete referent? | blind | yes | n/a | n/a | n/a |
 | T3 | Super salesy | Does the text contain any of: game-changer, game changing, revolutionary, 'excited to announce' / 'I'm excited to'? | code | no | n/a | n/a | n/a |
-| T4 | Thought-leader cosplay | Does the text apply any of 'thought leader', 'visionary', 'industry leader' to the author or a speaker? | code | no | n/a | n/a | n/a |
-| T5 | Empty validation (DM) | Does the DM contain a content-free compliment such as 'Love your work', 'Great post', 'This is amazing' (or a close variant)? | code | no | n/a | n/a | n/a |
+| T4 | Thought-leader cosplay | Does the text apply any of 'thought leader', 'visionary', 'industry leader' to the author or a speaker? | both | no | n/a | n/a | n/a |
+| T5 | Empty validation (DM) | Does the DM contain a content-free compliment such as 'Love your work', 'Great post', 'This is amazing' (or a close variant)? | both | no | n/a | n/a | n/a |
 | T6 | Faux casual fillers | Does the text contain any of: 'I'm curious', 'I'd love to hear', 'I'm wondering'? | code | yes | n/a | n/a | n/a |
 | T7 | Observer framing (DM) | Does the DM open or anchor with 'Saw you were…' / 'Noticed you're…' / 'I saw that you…'? | code | no | n/a | n/a | n/a |
 | T8 | Citing studies in DMs | Does the DM cite a study, survey, report or percentage statistic? | both | no | n/a | n/a | n/a |

@@ -67,13 +67,15 @@ The procedure that selects them is in `prereg/failure-type-selection.md`. It is 
 | T1 | Omnipresent buzzwords | Does the text contain any of: leverage, unlock, synergy, ecosystem, disrupt (any inflection)? | code | yes | `fixtures/T1/` |
 | T2 | Jargon stacking | Does any single sentence chain three or more abstract tech/marketing modifiers (e.g. 'AI-powered digital transformation leveraging cutting-edge solutions') with no concrete referent? | blind | yes | `fixtures/T2/` |
 | T3 | Super salesy | Does the text contain any of: game-changer, game changing, revolutionary, 'excited to announce' / 'I'm excited to'? | code | no | `fixtures/T3/` |
-| T4 | Thought-leader cosplay | Does the text apply any of 'thought leader', 'visionary', 'industry leader' to the author or a speaker? | code | no | `fixtures/T4/` |
-| T5 | Empty validation (DM) | Does the DM contain a content-free compliment such as 'Love your work', 'Great post', 'This is amazing' (or a close variant)? | code | no | `fixtures/T5/` |
+| T4 | Thought-leader cosplay | Does the text apply any of 'thought leader', 'visionary', 'industry leader' to the author or a speaker? | both | no | `fixtures/T4/` |
+| T5 | Empty validation (DM) | Does the DM contain a content-free compliment such as 'Love your work', 'Great post', 'This is amazing' (or a close variant)? | both | no | `fixtures/T5/` |
 | T6 | Faux casual fillers | Does the text contain any of: 'I'm curious', 'I'd love to hear', 'I'm wondering'? | code | yes | `fixtures/T6/` |
 | T7 | Observer framing (DM) | Does the DM open or anchor with 'Saw you were…' / 'Noticed you're…' / 'I saw that you…'? | code | no | `fixtures/T7/` |
 | T8 | Citing studies in DMs | Does the DM cite a study, survey, report or percentage statistic? | both | no | `fixtures/T8/` |
 
 Next-ranked if a type is removed under `failure-type-selection.md` §7: rank 9, "Leading with company/product name", then rank 10 onward in file order (`prereg/candidate-types.md`). Shaping types (arm F runs if they go RED): T1, T2, T6.
+
+Grader changes from the candidate list, made before sign: T4 and T5 move from code to both. Code finds the listed phrases, but it cannot tell whether 'industry leader' is applied to a person (T4) or catch a close variant of a listed compliment (T5). On those two types code decides a match, and the blind grader decides the rest. Code predicates: `graders/predicates.py`. Seeded tests: `graders/tests/test_predicates.py`.
 
 Rules for the table:
 
@@ -90,8 +92,8 @@ Arm letters are labels, not an order. The plan names the general writing skill "
 | A | No guidance. Task framing only (the same framing appears in every arm). | every RED type |
 | B | Alex's current rule wording for the type, verbatim from the style guide at sign. | every RED type |
 | C | The same rule rewritten so its form matches the failure (prohibition with a rationalization table, positive recipe, required slot, or observable predicate). Written before sign. | every RED type |
-| D | One GTM writing skill from a public skill marketplace, used as published, licence permitting. TODO: skill name, source URL, version and sha256, fixed at sign. The same skill runs on every RED type. | every RED type |
-| F | The Elements of Style writing skill as listed in the Superpowers marketplace. If its licence cannot be confirmed by sign, the public-domain Strunk text is used instead and the results say so. | shaping RED types only |
+| D | One GTM writing skill from a public skill marketplace, used as published, licence permitting: `social` from coreyhaines31/marketingskills (`skills/social/SKILL.md` at commit `1f83744`, MIT). Its sha256 is in `HASHES.json`, and provenance is in `arms/_src/vendor/SOURCES.md`. The same skill runs on every RED type. | every RED type |
+| F | The Elements of Style writing skill as listed in the Superpowers marketplace (obra/the-elements-of-style at commit `05fc4f0`: its SKILL.md followed by its elements-of-style.md). If its licence cannot be confirmed by sign, the public-domain Strunk text is used instead and the results say so. Status at drafting: the Strunk text is public domain, and the wrapper is declared "Public Domain" in the repo's package.json but has no LICENSE file. | shaping RED types only |
 
 Each arm is one file under `arms/<type>/<arm>.md`. Its sha256 is in `HASHES.json`. A non-shaping RED type runs four arms (A, B, C, D). A shaping type runs five.
 
@@ -126,7 +128,7 @@ run from an empty temporary directory by `runner/sample.sh`. No tools, no memory
 
 Fixtures are synthetic. They contain no real client, employer, person or off-the-record material. Company and person names in fixtures are invented. A static leak scan (paths, emails, phones, a name allowlist) runs over `fixtures/`, `results/` and `reports/` before every publish.
 
-Each type has one fixture: a task prompt and any context the task needs. The fixture is generated with the pipeline that produced the original failures, then edited to remove anything real.
+Each type has one fixture: a task prompt and any context the task needs. The fixture is written by hand in the shape of the pipeline's own inputs (an event brief plus a task line), with every name invented. Fixtures: `fixtures/T1/` to `fixtures/T8/`. Allowlist of invented names: `fixtures/NAMES.txt`. Scan: `tools/leak_scan.py`.
 
 **Realism gate (before the screen, target 2026-11-17 to 11-19).** For each type, Alex reads 3 control samples and confirms the control fails for the intended reason. If it fails for a different reason, the fixture gets one fix and the gate re-runs. A second wrong-reason result drops the type and the drop is recorded in `DEVIATIONS.md`. Samples read at the gate are not study samples and are not counted.
 
@@ -187,6 +189,8 @@ Written before data. Run once, by a script in `graders/` or `reports/`, on the s
 **Exploratory.** Any comparison not listed above, any type labelled exploratory, the second-model re-run, and anything suggested by the data. Reported with uncorrected p only and marked exploratory.
 
 **Variance column.** For every cell, the number of distinct output shapes across the 16 reps (as a count of unique normalised first lines and unique lengths in 50-character bins). Zero variance under an arm is reported as a signal that the guidance landed, not as a quality claim.
+
+**Input length.** Arms differ in how much guidance they add: arms B and C add under 150 words, arm D about 2,800, and arm F about 12,500. Median input tokens are reported for every cell. Because length and content vary together in arms D and F, a difference between D or F and A cannot be attributed to content alone, and the results say so.
 
 **Agreement.** Code-vs-blind disagreement rate per type. Author overturn rate per type. Outside-grader kappas per section 9, each with its chance baseline.
 

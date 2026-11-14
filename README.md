@@ -8,7 +8,7 @@ Status: pre-registration drafted, not signed. No study sample exists. Throughput
 
 ## What it does
 
-1. **Screen.** Up to 8 failure types, drawn from the author's own review comments by a fixed procedure (`prereg/failure-type-selection.md`), are each run 16 times with no guidance. A type is RED when the control fails it at least 5 times out of 16 (Fisher exact, two-sided, 0/16 vs 5/16, p ≈ 0.043).
+1. **Screen.** Up to 8 failure types, chosen by a fixed procedure (`prereg/failure-type-selection.md`). Study 1 uses its fallback, the author's anti-patterns list in file order, because the review-comment record held 17 comments, below the 60 the procedure needs., are each run 16 times with no guidance. A type is RED when the control fails it at least 5 times out of 16 (Fisher exact, two-sided, 0/16 vs 5/16, p ≈ 0.043).
 2. **Study.** RED types get up to five arms, 16 reps each: no guidance, the current rule wording, a rewritten rule, a marketplace GTM skill, and (on shaping types) the Elements of Style skill.
 3. **Grade.** Code checks first. Then a blind Sonnet grader that never sees the style guide or the arm label. Then the author reads every flagged failure. Then three outside practitioners grade a blind subset; agreement is published as kappa with its chance baseline.
 4. **Publish.** Every raw sample, every grade, the grader code, the arm text, the fixtures, a hash-frozen pre-registration, a sealed results file and a deviation log.
