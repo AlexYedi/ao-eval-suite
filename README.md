@@ -92,3 +92,7 @@ Fixtures are synthetic. No client, employer, person or off-the-record material e
 ## Licence
 
 TODO: not yet chosen. Until a licence file exists, the contents are all rights reserved by default.
+
+## Licence
+
+Code (runner, graders, tools): MIT, see `LICENSE`. Study data (pre-registration, fixtures, samples, grades, results, write-up): CC BY 4.0, see `LICENSE-DATA.md`.
