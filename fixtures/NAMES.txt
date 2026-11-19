@@ -1,0 +1,69 @@
+# Allowlist for tools/leak_scan.py. Every person and company name in fixtures/ is invented.
+# A capitalised word pair passes only if it, or one of its words, is listed here.
+# Invented people
+Priya Raman-Holt
+Raman-Holt
+Marcus Feldane
+Feldane
+Tomasz Arkwright-Bell
+Renata Okonkwo-Hale
+Jonas Vellacourt
+Aiko Strandberg
+Helena Voss-Marchetti
+Voss-Marchetti
+Dmitri Halvorsen-Ito
+Mara Lindqvist-Obi
+Felipe Achterberg
+Celeste Marrowby
+Ingrid Saltonstall-Reyes
+# Invented companies, groups and events
+Kestrelmoor
+Tallowbrook
+Quillary
+Corvanta
+Brindlecove Health
+Tessaline
+Ferrowind
+Larchmont Systems
+Pellucid Freight
+Sablewick Ventures
+Orrenfield
+Hollisgate
+NYC Applied AI Guild
+Integration Debt Night
+Agents in Production
+Fintech Builders Summit
+The Cost of Context
+RevOps Exchange
+# Ordinary phrases and places
+VP Platform
+VP Revenue Operations
+Show
+Disagreement
+My
+Panel
+Panelists
+Session
+Speaker
+Event
+Topic
+Recipient
+Her
+His
+What
+One
+Free
+Best
+Flatiron
+Midtown
+Chelsea
+SoHo
+Wednesday
+Thursday
+Tuesday
+New York
+Writing
+Part
+Operationalizing
+The Cost
+Revenue Operations
