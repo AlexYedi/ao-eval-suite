@@ -1,0 +1,244 @@
+{
+ "read_by": "author",
+ "date": "2026-11-22",
+ "items": [
+  {
+   "type": "T1",
+   "rep": "rep14",
+   "pre_read": "fail",
+   "author": "overturn -> pass",
+   "reason": "'leverage' means bargaining power over partners here, not the buzzword (realism-gate decision)."
+  },
+  {
+   "type": "T5",
+   "rep": "rep01",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep02",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep03",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep04",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep05",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep06",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep07",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep08",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep09",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep10",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep11",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep12",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep13",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep14",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep15",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T5",
+   "rep": "rep16",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T6",
+   "rep": "rep10",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep01",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep02",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep03",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep04",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep05",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep06",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep07",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep08",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep09",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep10",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep11",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep12",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep13",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep14",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep15",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  },
+  {
+   "type": "T8",
+   "rep": "rep16",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": ""
+  }
+ ]
+}
