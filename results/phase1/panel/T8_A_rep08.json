@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep08",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008442,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% saw worse forecasts once reps stopped updating the CRM stuck with me.",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding, and the note also opens with the generic compliment 'loved your talk today' (P2)."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.016048,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% saw worse forecasts",
+   "reason": "Under P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from their talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032544000000000003,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% saw worse forecasts",
+   "reason": "Under P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from her talk, and the writer does so in their own voice."
+  }
+ ]
+}

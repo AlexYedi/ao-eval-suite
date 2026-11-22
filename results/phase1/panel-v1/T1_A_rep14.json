@@ -1,0 +1,43 @@
+{
+ "id": "T1/A/rep14",
+ "status": "raised",
+ "why": "3 judge(s) say not the habit",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.00883,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "it depends on how much leverage you have over your partners",
+   "reason": "Here 'leverage' is used in its ordinary sense of bargaining power or influence over partners, not as the corporate buzzword meaning 'to utilize'."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.017252,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "how much leverage you have over your partners",
+   "reason": "Here \"leverage\" means bargaining power over partners, which is its ordinary sense and not the buzzword usage."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.035047999999999996,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "how much leverage you have over your partners",
+   "reason": "\"Leverage\" is used as a noun in its ordinary sense of bargaining power over partners, not as the buzzword verb meaning \"use\"."
+  }
+ ]
+}

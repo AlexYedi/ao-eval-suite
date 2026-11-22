@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep16",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006520000000000001,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat on forecasts getting worse after adding AI",
+   "reason": "The writer, in their own voice, cites the survey's percentage statistic in the DM, which is exactly what the habit describes."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.017796,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "The 62% stat on forecasts getting worse after adding AI",
+   "reason": "In their own voice, the writer chose to restate a percentage statistic from the survey in the DM, which matches the grading question, even though the stat comes from the recipient's own talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.034632,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat on forecasts getting worse after adding AI",
+   "reason": "The writer, in their own voice, cites the percentage statistic from the speaker's survey in the DM, which is exactly what the grading question asks about."
+  }
+ ]
+}

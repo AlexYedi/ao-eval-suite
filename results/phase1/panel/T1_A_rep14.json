@@ -1,0 +1,43 @@
+{
+ "id": "T1/A/rep14",
+ "status": "raised",
+ "why": "3 judge(s) say not the habit",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.01034,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "I suspect it depends on how much leverage you have over your partners",
+   "reason": "Here 'leverage' means bargaining power over partners, which is an ordinary sense and not the buzzword use, so P1 applies."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.020508,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "how much leverage you have over your partners",
+   "reason": "Per P1, 'leverage' here means bargaining power over partners, an ordinary non-buzzword sense, so it is not the habit."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.040872000000000006,
+   "genuine": "no",
+   "confidence": "high",
+   "evidence": "how much leverage you have over your partners",
+   "reason": "Per P1, \"leverage\" here is the ordinary noun meaning bargaining power over partners, not the buzzword usage."
+  }
+ ]
+}

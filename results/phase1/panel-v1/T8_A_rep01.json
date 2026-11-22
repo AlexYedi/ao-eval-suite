@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep01",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006726,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your point that 62% of RevOps leaders saw worse forecasts after adding AI",
+   "reason": "The DM, in the writer's own voice, cites a percentage statistic from the survey, which is what the habit describes, even though it comes from the recipient's own talk."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.018084,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "your point that 62% of RevOps leaders saw worse forecasts after adding AI",
+   "reason": "The writer cites the survey's percentage statistic in their own paraphrase rather than as quoted material, which is what the grading question asks about, even though it refers to the recipient's own talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.034592,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "62% of RevOps leaders saw worse forecasts after adding AI",
+   "reason": "The writer, in their own voice, restates a percentage statistic from the speaker's survey in the DM, which is exactly what the habit describes."
+  }
+ ]
+}

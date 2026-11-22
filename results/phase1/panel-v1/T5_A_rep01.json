@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep01",
+ "status": "raised",
+ "why": "1 judge(s) say not the habit",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.007122000000000001,
+   "genuine": "no",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today. The point that the model was right more often but dispatchers overrode it has stuck with me.",
+   "reason": "\"Enjoyed your talk today\" is a brief generic pleasantry, but it is immediately backed by a specific reference to his point about the model being right more often and dispatchers overriding it, so the note is not content-free validation."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015812,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today",
+   "reason": "The writer, in their own voice, opens with a generic compliment that is a close variant of 'Great post'; the specific detail in the next sentence does not cancel it under the rules."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.040232,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today",
+   "reason": "In the writer's own voice, this is a generic compliment equivalent to 'Great talk' that carries no content by itself, and the specific point in the next sentence does not cancel it."
+  }
+ ]
+}

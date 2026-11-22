@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep13",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.00828,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% forecast-accuracy drop after adding AI tools",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding, and the opener \"loved your talk today\" is also a generic compliment per P2."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015916,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% forecast-accuracy drop",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from their talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032344,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% forecast-accuracy drop",
+   "reason": "The writer cites a percentage figure from the recipient's own survey in their own voice, which P3 rules is the habit even when the figure is the recipient's finding."
+  }
+ ]
+}

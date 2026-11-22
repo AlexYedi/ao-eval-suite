@@ -17,9 +17,12 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "graders"))
 import predicates  # noqa: E402
 
-TYPES = [f"T{i}" for i in range(1, 9)]
+PHASE = 2 if "--phase2" in sys.argv else 1
+# Phase 2 (section 10): RED types only, from results/phase1/RESULT.md; non-shaping types run A B C D (section 6).
+TYPES = ["T5", "T8"] if PHASE == 2 else [f"T{i}" for i in range(1, 9)]
+ARMS = ["A", "B", "C", "D"] if PHASE == 2 else ["A"]
 REPS = 16
-OUT = ROOT / "results" / "phase1"
+OUT = ROOT / "results" / f"phase{PHASE}"
 SAMPLE_SH = ROOT / "runner" / "sample.sh"
 LOCK = threading.Lock()
 
@@ -78,29 +81,35 @@ be incomplete or paraphrased.
 
 
 def cmd_sample(jobs):
-    order = [(t, r) for r in range(1, REPS + 1) for t in TYPES]     # blocks: rep r of every type
-    todo = [(t, r) for t, r in order if not (OUT / "samples" / t / "A" / f"rep{r:02d}.json").exists()]
-    print(f"sample: {len(order) - len(todo)} done, {len(todo)} to run, -j {jobs}", flush=True)
+    # Section 7: a block is one rep of every arm for one type, arms in rotated order (A B C D, then B C D A, ...).
+    order, b = [], 0
+    for r in range(1, REPS + 1):
+        for t in TYPES:
+            rot = ARMS[b % len(ARMS):] + ARMS[:b % len(ARMS)]
+            order += [(t, a, r) for a in rot]
+            b += 1
+    todo = [(t, a, r) for t, a, r in order if not (OUT / "samples" / t / a / f"rep{r:02d}.json").exists()]
+    print(f"sample (phase {PHASE}): {len(order) - len(todo)} done, {len(todo)} to run, -j {jobs}", flush=True)
     stop = threading.Event()
 
-    def one(tr):
-        t, r = tr
+    def one(tar):
+        t, a, r = tar
         if stop.is_set():
-            return tr, "skipped"
+            return tar, "skipped"
         ok, msg = manifest_ok()
         if not ok:
             stop.set()
-            return tr, f"MANIFEST MISMATCH, stopping: {msg}"
-        res = run_sample(ROOT / "arms" / t / "A.md", ROOT / "fixtures" / t / "prompt.md",
-                         OUT / "samples" / t / "A" / f"rep{r:02d}.json")
-        return tr, f"ok={res['ok']} match={res['model_match']} {res['secs']}s"
+            return tar, f"MANIFEST MISMATCH, stopping: {msg}"
+        res = run_sample(ROOT / "arms" / t / f"{a}.md", ROOT / "fixtures" / t / "prompt.md",
+                         OUT / "samples" / t / a / f"rep{r:02d}.json")
+        return tar, f"ok={res['ok']} match={res['model_match']} {res['secs']}s"
 
     n = 0
     with cf.ThreadPoolExecutor(jobs) as ex:
-        for (t, r), msg in ex.map(one, todo):
+        for (t, a, r), msg in ex.map(one, todo):
             n += 1
             if "MANIFEST" in msg or "ok=False" in msg or "match=False" in msg or n % 16 == 0:
-                print(f"  [{n}/{len(todo)}] {t} rep{r:02d} {msg}", flush=True)
+                print(f"  [{n}/{len(todo)}] {t} {a} rep{r:02d} {msg}", flush=True)
     if stop.is_set():
         sys.exit(2)
     print("sample: done", flush=True)
@@ -122,8 +131,8 @@ def cmd_grade(jobs):
     tmpl = (ROOT / "graders" / "blind_prompt.md").read_text()
 
     def one(path):
-        t, rep = path.parts[-3], path.stem
-        gp = OUT / "grades" / t / "A" / f"{rep}.json"
+        t, arm, rep = path.parts[-3], path.parts[-2], path.stem
+        gp = OUT / "grades" / t / arm / f"{rep}.json"
         if gp.exists():
             return
         s = json.load(open(path))
@@ -147,17 +156,17 @@ def cmd_grade(jobs):
         else:                                                   # code could not decide -> the blind grader decides
             final = bv if bv else "indeterminate"
         disagree = code_v in ("pass", "fail") and bv in ("pass", "fail") and code_v != bv
-        g = {"type": t, "rep": rep, "code": {"verdict": code_v, "evidence": code_e},
+        g = {"type": t, "arm": arm, "rep": rep, "code": {"verdict": code_v, "evidence": code_e},
              "blind": blind, "blind_verdict": bv, "blind_meta": blind_meta if code_v != "indeterminate" else None,
              "final": final, "code_blind_disagree": disagree}
         gp.parent.mkdir(parents=True, exist_ok=True)
         json.dump(g, open(gp, "w"), indent=1)
 
-    paths = sorted((OUT / "samples").glob("T*/A/rep*.json"))
+    paths = sorted((OUT / "samples").glob("T*/*/rep*.json"))
     paths = [p for p in paths if not p.name.endswith((".raw", ".err"))]
     with cf.ThreadPoolExecutor(jobs) as ex:
         list(ex.map(one, paths))
-    print(f"grade: {len(list((OUT / 'grades').glob('T*/A/rep*.json')))} graded", flush=True)
+    print(f"grade: {len(list((OUT / 'grades').glob('T*/*/rep*.json')))} graded", flush=True)
 
 
 def cmd_summary():
