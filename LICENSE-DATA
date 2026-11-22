@@ -1,0 +1,9 @@
+Data and write-up licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Applies to everything in this repository that is not code: fixtures, generated samples, grades,
+results, figures and the write-up. Code (tools/, graders/*.py, runner/) is under the MIT License
+in LICENSE. Attribution: "AO-EVAL-SUITE, Alex Yedibalian, 2026".
+
+Third-party material keeps its own licence: arm D (coreyhaines31/marketingskills, MIT) and arm F
+(obra/the-elements-of-style / Strunk, public domain); see arms/_src/vendor/SOURCES.md.

@@ -31,7 +31,28 @@ Stated before any sample. Each has a null.
 - **H3 (secondary, form).** For each RED type, the rewritten rule (arm C) produces no more failures than the current wording (arm B). Null: no difference.
 - **H4 (secondary, outside guidance).** For each RED type, a marketplace GTM skill (arm D) and, on shaping types only, a general writing skill (arm F) each produce fewer failures than the control (arm A). Null: no difference from A.
 
-Author's stated prior, written at sign: TODO (expected count of RED types, 0 to 8, and expected direction of B vs A on each). This line is a prediction, not a result. It is published either way.
+Author's stated prior, written at sign (2026-11-22). This is a prediction, not a result. It is published either way.
+
+```
+Expected number of RED types (0–8): 3
+
+T1  Buzzwords: uses leverage / unlock / synergy / ecosystem / disrupt.            B beats A
+T2  Jargon stacking: a sentence piles up three or more abstract tech or marketing
+    adjectives with nothing concrete underneath.                                  B beats A
+T3  Salesy hype: "game-changer", "revolutionary", "excited to announce".          B beats A
+T4  Thought-leader cosplay: calls the author or a speaker a "thought leader",
+    "visionary" or "industry leader".                                             B beats A
+T5  Empty compliment in a DM: "Great post", "Love your work", "This is amazing"
+    with nothing specific.                                                        B beats A
+T6  Fake-casual fillers: "I'm curious", "I'd love to hear", "I'm wondering".      B beats A
+T7  Observer opening in a DM: starts with "Saw you were…" / "Noticed you're…"
+    instead of your own involvement.                                              B beats A
+T8  Citing studies in a DM: quotes a study, survey, report or percentage.         B beats A
+
+Confidence in the RED count: about 40%
+```
+
+Only the RED types are tested for direction (H2). A direction is stated for all eight, so a type that unexpectedly goes RED still has a prior on record.
 
 ## 3. Primary outcome
 
@@ -130,7 +151,7 @@ Fixtures are synthetic. They contain no real client, employer, person or off-the
 
 Each type has one fixture: a task prompt and any context the task needs. The fixture is written by hand in the shape of the pipeline's own inputs (an event brief plus a task line), with every name invented. Fixtures: `fixtures/T1/` to `fixtures/T8/`. Allowlist of invented names: `fixtures/NAMES.txt`. Scan: `tools/leak_scan.py`.
 
-**Realism gate (before the screen, target 2026-11-17 to 11-19).** For each type, Alex reads 3 control samples and confirms the control fails for the intended reason. If it fails for a different reason, the fixture gets one fix and the gate re-runs. A second wrong-reason result drops the type and the drop is recorded in `DEVIATIONS.md`. Samples read at the gate are not study samples and are not counted.
+**Realism gate (before the screen, target 2026-11-23 to 11-24).** For each type, Alex reads 3 control samples and confirms the control fails for the intended reason. If it fails for a different reason, the fixture gets one fix and the gate re-runs. A second wrong-reason result drops the type and the drop is recorded in `DEVIATIONS.md`. Samples read at the gate are not study samples and are not counted.
 
 ## 9. Grading
 
@@ -213,19 +234,19 @@ Nothing in the write-up claims to be the first of anything. Prior art is cited i
 
 | Date | Gate |
 |---|---|
-| 2026-11-14 | Pre-registration signed and hashed. Throughput known. |
-| 2026-11-17 to 11-19 | Fixture realism gate. |
-| 2026-11-22 | Phase 1 screen complete. RED list, or the null note. |
-| 2026-11-29 | Phase 2 complete. Seal written. |
-| 2026-12-05 | Outside graders confirmed or author-only stated. |
-| 2026-12-10 | Outside grades in. |
-| 2026-12-12 | Write-up and dataset published. |
+| 2026-11-22 to 11-23 | Pre-registration signed and hashed. Throughput known. |
+| 2026-11-23 to 11-24 | Fixture realism gate. |
+| 2026-11-25 | Phase 1 screen complete. RED list, or the null note. |
+| 2026-12-01 | Phase 2 complete. Seal written. |
+| 2026-12-04 | Outside graders confirmed or author-only stated. |
+| 2026-12-11 | Outside grades in. |
+| 2026-12-15 | Write-up and dataset published. |
 
 ## 15. Signature
 
 Signed by: Alex Yedibalian
 Date: TODO
 Registration hash: TODO
-Manifest: `prereg/HASHES.json` (sha256 of this file with the hash and date fields blank, `failure-type-selection.md`, every file under `arms/`, `fixtures/` and `graders/`, the model id string, and the output of `claude --version`)
+Manifest: `prereg/HASHES.json` (sha256 of this file with the hash and date fields blank, `failure-type-selection.md`, every file under `arms/`, `fixtures/` and `graders/`, the model id string, and the output of the pinned CLI's `--version` (`runner/PIN`))
 
 Until the three TODO fields above are filled, no study sample may be generated.
