@@ -1,0 +1,66 @@
+{
+ "read_by": "author",
+ "date": "2026-11-22",
+ "method": "D3: panel-raised items + 10% audit",
+ "panel_items": 56,
+ "panel_accepted": 56,
+ "panel_raised": 0,
+ "audit_n": 6,
+ "audit_author_agrees_with_panel": 6,
+ "items": [
+  {
+   "type": "T5",
+   "arm": "D",
+   "rep": "rep01",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  },
+  {
+   "type": "T5",
+   "arm": "D",
+   "rep": "rep06",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  },
+  {
+   "type": "T8",
+   "arm": "A",
+   "rep": "rep03",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  },
+  {
+   "type": "T8",
+   "arm": "A",
+   "rep": "rep04",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  },
+  {
+   "type": "T8",
+   "arm": "A",
+   "rep": "rep13",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  },
+  {
+   "type": "T8",
+   "arm": "D",
+   "rep": "rep11",
+   "pre_read": "fail",
+   "author": "keep",
+   "reason": "",
+   "via": "audit"
+  }
+ ]
+}

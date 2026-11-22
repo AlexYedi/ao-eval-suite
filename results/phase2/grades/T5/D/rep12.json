@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "D",
+ "rep": "rep12",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "enjoyed your talk today",
+  "reason": "The opener is a generic compliment with no content of its own, a close variant of 'Great post', even though the next sentence adds a specific detail."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.009908
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

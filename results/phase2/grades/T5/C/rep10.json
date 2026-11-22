@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "C",
+ "rep": "rep10",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "changed how I think about trust",
+  "reason": "The note references a specific point from the talk and states a concrete effect on the writer, rather than offering a generic compliment like 'Love your work'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005809999999999999
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

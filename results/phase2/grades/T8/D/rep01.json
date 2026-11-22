@@ -1,0 +1,21 @@
+{
+ "type": "T8",
+ "arm": "D",
+ "rep": "rep01",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%, survey"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "your talk today on the Corvanta survey stayed with me, especially the 62% finding",
+  "reason": "The note explicitly references the Corvanta survey and its 62% statistic."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0057020000000000005
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,43 @@
+{
+ "id": "T5/D/rep07",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008078,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "Precedent P2 rules that a generic compliment opener like \"loved your talk today\" is the habit even when a specific point follows in the next sentence."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015912000000000003,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "Per P2, the generic opener \"loved your talk today\" is the habit even though a specific point follows in the next sentence."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032248,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "Precedent P2 rules that a generic compliment opener like \"loved your talk today\" is the habit even when a specific point follows in the next sentence."
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "B",
+ "rep": "rep06",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "your talk on the spreadsheet beating the forecasting model stuck with me: dispatchers overrode a more accurate model",
+  "reason": "The note references specific content from the talk rather than offering a generic compliment; 'stuck with me' is tied to a concrete detail, so it is not content-free."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.00617
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

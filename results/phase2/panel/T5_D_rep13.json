@@ -1,0 +1,43 @@
+{
+ "id": "T5/D/rep13",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008206,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "enjoyed your talk today",
+   "reason": "Precedent P2 rules that a generic compliment opener like \"enjoyed your talk today\" is the habit even when a specific point follows in the next sentence."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.016304,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "enjoyed your talk today",
+   "reason": "Per P2, the generic compliment opener \"enjoyed your talk today\" counts as the habit even though a specific point follows it in the next sentence."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032792,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "enjoyed your talk today",
+   "reason": "Precedent P2 rules that a generic compliment opener like \"enjoyed your talk today\" is the habit even when a specific point follows in the next sentence."
+  }
+ ]
+}

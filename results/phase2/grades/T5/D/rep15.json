@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "D",
+ "rep": "rep15",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "enjoyed your talk today",
+  "reason": "\"enjoyed your talk today\" is a generic compliment with no specific content, though the following sentence adds specifics about the model being overridden."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0058519999999999996
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

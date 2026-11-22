@@ -1,0 +1,21 @@
+{
+ "type": "T8",
+ "arm": "A",
+ "rep": "rep02",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "The 62% stat and your rep-owned manual forecast field were eye-opening.",
+  "reason": "The note explicitly references the '62% stat' from the survey, which is a percentage statistic."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005698
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,43 @@
+{
+ "id": "T8/D/rep04",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008502000000000001,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% of RevOps leaders saw worse forecasts after adding AI",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding, and the opener 'enjoyed your talk today' is also covered by P2."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.01644,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% of RevOps leaders saw worse forecasts",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from their talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.033631999999999995,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The finding that 62% of RevOps leaders saw worse forecasts after adding AI",
+   "reason": "Under P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from her talk, and here the writer does so in their own voice."
+  }
+ ]
+}

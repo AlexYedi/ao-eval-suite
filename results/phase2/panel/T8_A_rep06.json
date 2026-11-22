@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep06",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008118,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% drop in forecast accuracy after adding AI tools",
+   "reason": "The DM cites a percentage figure from the recipient's survey, which P3 rules is the habit even when it is the recipient's own finding."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.018068,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% drop in forecast accuracy",
+   "reason": "Under P3, citing a percentage in a DM is the habit even when the figure is the recipient's own finding from their talk, and the writer cites 62% in their own voice (and misstates it as a 62% drop rather than 62% of respondents)."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.031976,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% drop in forecast accuracy",
+   "reason": "The writer cites a percentage figure from the recipient's own talk in their own voice, which precedent P3 rules is the habit."
+  }
+ ]
+}

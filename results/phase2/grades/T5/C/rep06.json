@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "C",
+ "rep": "rep06",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "your point that dispatchers overrode a more accurate model, so a spreadsheet won, has stayed with me",
+  "reason": "The only appreciative remark is tied to a specific point from the talk, so it is not a content-free compliment like 'Love your work'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.006056000000000001
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

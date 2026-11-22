@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "C",
+ "rep": "rep05",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "your point that the model was right more often but dispatchers overrode it anyway reframed trust for me",
+  "reason": "The compliment is specific, referencing his actual point and its effect on the writer, so it is not a content-free compliment like 'Great talk'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005996
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

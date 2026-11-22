@@ -1,0 +1,21 @@
+{
+ "type": "T8",
+ "arm": "D",
+ "rep": "rep04",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "The finding that 62% of RevOps leaders saw worse forecasts after adding AI, because reps stopped updating the CRM, stuck with me.",
+  "reason": "The note cites the 62% statistic from the survey presented in her talk."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0059559999999999995
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

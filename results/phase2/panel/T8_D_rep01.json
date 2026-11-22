@@ -1,0 +1,43 @@
+{
+ "id": "T8/D/rep01",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008042,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "especially the 62% finding",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding, and the note also references the Corvanta survey."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.016323999999999998,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "especially the 62% finding",
+   "reason": "Per P3, citing a percentage or survey figure in a DM is the habit even when it is the recipient's own finding from their talk, and here the writer cites the 62% figure in their own voice."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032576,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "especially the 62% finding",
+   "reason": "The writer, in their own voice, cites a survey and a percentage figure in the DM, which precedent P3 rules is the habit even when the figure is the recipient's own finding from her talk."
+  }
+ ]
+}
