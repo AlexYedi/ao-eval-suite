@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep01",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text contains none of the phrases 'game-changer', 'game changing', 'revolutionary', 'excited to announce', or 'I'm excited to'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.00727
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

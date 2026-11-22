@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336560.72157,
+ "end": 1795336564.3219872,
+ "secs": 3.6,
+ "text": "Hi Ingrid, your talk on the 62% forecast drop after adding AI tools stuck with me, especially the manual forecast field reps must own. I'm weighing an AI forecasting tool for my team and would value connecting.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 881,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 76,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 881,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 76,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 881,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 881
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.004288
+}

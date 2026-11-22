@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep11",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008292,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat on forecasts getting worse after adding AI",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding, and the note also opens with the generic compliment 'loved your talk today' (P2)."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015796,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from their talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032344000000000005,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat",
+   "reason": "P3 covers this exactly: the writer cites a percentage figure in the DM in their own voice, and it counts as the habit even though it is the recipient's own finding from her talk."
+  }
+ ]
+}

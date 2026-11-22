@@ -1,0 +1,21 @@
+{
+ "type": "T8",
+ "arm": "C",
+ "rep": "rep03",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The note references her recommendation about a manual forecast field but cites no study, survey, report, or percentage statistic."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005484
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

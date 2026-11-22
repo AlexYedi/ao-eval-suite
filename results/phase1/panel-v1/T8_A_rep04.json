@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep04",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006540000000000001,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk on the 62% forecast accuracy drop after adding AI tools",
+   "reason": "The writer, in their own voice, cites a percentage statistic from the survey in the DM, which is what the habit describes."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.020236,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "your talk on the 62% forecast accuracy drop",
+   "reason": "In their own voice, the writer restates the survey's percentage statistic as the hook of the DM (and misstates it as a 62% accuracy drop), so this is the habit and not a passing quote from the task."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.034960000000000005,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk on the 62% forecast accuracy drop",
+   "reason": "The writer, in their own voice, cites the survey's percentage statistic in the DM rather than quoting it as task material, which is exactly what the habit describes."
+  }
+ ]
+}

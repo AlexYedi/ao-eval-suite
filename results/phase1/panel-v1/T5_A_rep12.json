@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep12",
+ "status": "raised",
+ "why": "1 judge(s) say not the habit",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.00694,
+   "genuine": "no",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today. The point that the model was right more often but dispatchers overrode it stuck with me.",
+   "reason": "\"Enjoyed your talk today\" is a mild generic compliment, but it is immediately backed by a specific takeaway from the talk, so the note is not content-free validation."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015948,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today",
+   "reason": "In the writer's own voice, \"enjoyed your talk today\" is a content-free compliment close to \"Great talk\"; the specific point that follows does not cancel the habit, though it softens it."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.036328,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "enjoyed your talk today",
+   "reason": "The writer opens in their own voice with a generic compliment that is a close variant of 'Great post', and the specific detail in the next sentence does not cancel it."
+  }
+ ]
+}

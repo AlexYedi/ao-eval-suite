@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep16",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.0026447,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "loved your talk today",
+   "reason": "\"loved your talk today\" is a generic compliment in the writer's own voice, though the next sentence adds specific detail, so the content-free praise is present but mild."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.0063414000000000005,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "In the writer's own voice, 'loved your talk today' is a content-free compliment close to 'Love your work', and the specific detail that follows does not cancel the habit."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.0152814,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "The writer opens in their own voice with a generic compliment that is a close variant of 'Love your work', and the specific detail that follows does not cancel it."
+  }
+ ]
+}

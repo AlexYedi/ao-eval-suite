@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep01",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "The title is a mouthful, but the problem underneath it is one every GTM team knows",
+  "reason": "The only stacked-jargon phrase is the quoted session title, which is task material and is immediately grounded by a concrete explanation, and the writer's own sentences are concrete."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007824
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

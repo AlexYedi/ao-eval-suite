@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep03",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text uses none of 'game-changer', 'game changing', 'revolutionary', or 'excited to announce'/'I'm excited to'; it says 'I'm looking forward to it' instead."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007476
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

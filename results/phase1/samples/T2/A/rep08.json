@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336623.668193,
+ "end": 1795336632.178779,
+ "secs": 8.51,
+ "text": "Next Tuesday I'm heading to Corvanta's session in Midtown: \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but the problem underneath is one every GTM team knows: deals that look fine in the CRM, then slip in the last two weeks of the quarter.\n\nAs I understand it, Corvanta's product reads a sales team's call recordings and CRM history and flags deals likely to slip in the current quarter. One customer, a 200-rep software company, says it cut its end-of-quarter forecast miss from 18% to 7%. That's a big claim, and I want to hear how they got there.\n\nWhy I'm going:\n\n- Tomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'd rather hear from someone running the operation than from a pitch deck.\n- I want to know what it takes to get reps to trust the flags and act on them.\n- I want to understand what that 18% to 7% actually measured, and over what period.\n\nIf you work in sales ops, RevOps, or forecasting, it's worth a look. Who else is going?",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 407,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 956,
+  "output_tokens_details": {
+   "thinking_tokens": 592
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 407,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 956,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 407,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 407
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.011251
+}

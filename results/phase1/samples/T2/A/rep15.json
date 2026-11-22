@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336707.358828,
+ "end": 1795336714.7231412,
+ "secs": 7.36,
+ "text": "Next Tuesday I'll be in Midtown for Corvanta's session, \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but the problem underneath it is one every GTM team knows: finding out late in the quarter that a deal you counted on isn't going to close.\n\nCorvanta's product reads a sales team's call recordings and CRM history and flags deals likely to slip in the current quarter. One customer, a 200-rep software company, says it cut its end-of-quarter forecast miss from 18% to 7%. That's a self-reported number, so I'm curious how they measure it.\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping to hear:\n\n- Which signals in calls and CRM data actually predict a slip\n- What managers and reps do once a deal gets flagged\n- What it took to roll this out across 200 reps\n\nIf you work in sales ops, RevOps, or forecasting and you're going, let me know. I'd like to compare notes afterward.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 856,
+  "output_tokens_details": {
+   "thinking_tokens": 509
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 856,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.010243
+}

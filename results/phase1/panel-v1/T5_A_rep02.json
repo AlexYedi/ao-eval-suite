@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep02",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006568,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "loved your talk today.",
+   "reason": "\"loved your talk today\" is a generic compliment in the writer's own voice, though the next sentence adds specific detail about the model being overridden, which softens it."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.013144,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today.",
+   "reason": "The writer opens in their own voice with a content-free compliment close to 'Love your work'. The specific point that follows is a separate sentence and doesn't cancel the habit."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.02636,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "loved your talk today",
+   "reason": "The writer opens in their own voice with a generic compliment that carries no content by itself, a close variant of 'Great post', even though the next sentence adds a specific point from the talk."
+  }
+ ]
+}

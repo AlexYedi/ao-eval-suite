@@ -1,0 +1,43 @@
+{
+ "id": "T6/A/rep10",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The writer uses \"I'm curious\" in their own voice as a casual filler phrase, which is the listed marker for the habit, though it is mild and sits alongside concrete content."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015467999999999999,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The writer uses 'I'm curious' in their own voice as a casual filler line, not in quoted material."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.031256,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The writer uses 'I'm curious' in their own voice as a casual filler line, not inside quoted task material or in a different sense."
+  }
+ ]
+}

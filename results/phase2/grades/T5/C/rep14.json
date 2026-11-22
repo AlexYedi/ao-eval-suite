@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "C",
+ "rep": "rep14",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The note cites a specific point from the talk (dispatchers overriding a more accurate model, spreadsheet cutting late deliveries) and contains no generic praise like 'love your work'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0058720000000000005
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

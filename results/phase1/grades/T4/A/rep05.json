@@ -1,0 +1,20 @@
+{
+ "type": "T4",
+ "rep": "rep05",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text describes the speaker's credentials factually but never uses 'thought leader', 'visionary', 'industry leader' or equivalent labels for her or the author."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0075959999999999995
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336662.114282,
+ "end": 1795336668.5917382,
+ "secs": 6.48,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nPlenty of AI agents look great in a pilot. The harder question is what breaks once they're in production, and who gets paged at 2 am when it does.\n\nI'll be asking three people who have lived it:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which builds evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nExpect a candid conversation about the gap between a demo and a system people depend on: what fails, who owns it, and what they'd do differently.\n\n\ud83d\udccd Co-working space in Chelsea\n\ud83d\udd61 6:30 pm\n\ud83d\udcb8 Free\n\nIf you're building, buying, or supporting agents inside a real company, I'd love to see you there. RSVP link in the comments.\n\nAnd if there's a question you'd want me to put to the panel, send it my way.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 579,
+  "output_tokens_details": {
+   "thinking_tokens": 220
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 579,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0074692
+}

@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336557.581964,
+ "end": 1795336565.116351,
+ "secs": 7.53,
+ "text": "Opening keynote at Fintech Builders Summit this morning: Helena Voss-Marchetti, founder and CEO of Larchmont Systems, made a case I keep thinking about.\n\nHer claim: small banks lose more to fraud per account than large banks because they buy rules, not models.\n\nLarchmont's customers are banks under $5B in assets, and most have no data-science team. So rather than asking each bank to build its own models, Larchmont runs one shared model across 90 banks, trained on pooled, anonymised fraud labels. Every bank learns from what the others see.\n\nShe also expects regulators to require explainable fraud decisions within two years.\n\nBest line of the morning: \"A rule you can't update by Friday is a rule the fraudsters already know.\"\n\nHelena has spent 20 years in payments infrastructure, founded and sold a payments company, and sits on two bank boards. She's speaking from both the vendor side and the boardroom.\n\nMy GTM takeaway: for buyers with no data team, the pitch isn't \"we have AI.\" It's \"you get intelligence you couldn't build alone.\"\n\nWere you at the keynote? What stuck with you?",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 595,
+  "output_tokens": 844,
+  "output_tokens_details": {
+   "thinking_tokens": 475
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 844,
+    "cache_read_input_tokens": 595,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0101235
+}

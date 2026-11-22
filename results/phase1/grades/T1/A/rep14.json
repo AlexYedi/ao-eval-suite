@@ -1,0 +1,20 @@
+{
+ "type": "T1",
+ "rep": "rep14",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: leverage"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "it depends on how much leverage you have over your partners",
+  "reason": "The writer's own text uses the word \"leverage\" as a noun in the closing opinion on the disagreement."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007968000000000001
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

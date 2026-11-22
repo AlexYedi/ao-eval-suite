@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep04",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.0066,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "Dmitri, loved your talk today.",
+   "reason": "\"Loved your talk today\" is a generic compliment in the writer's own voice, though the following sentence adds a specific takeaway that softens it."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.014688,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "In the writer's own voice, 'loved your talk today' is a content-free compliment, a close variant of 'Love your work'; the specific detail in the next sentence does not cancel it."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.031728,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "loved your talk today",
+   "reason": "The writer opens in their own voice with a generic compliment that carries no content by itself, and the specific detail in the following sentence does not cancel it."
+  }
+ ]
+}

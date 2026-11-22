@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336637.453248,
+ "end": 1795336643.755007,
+ "secs": 6.3,
+ "text": "Next Tuesday I'm heading to Midtown for Corvanta's session, \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but the substance is something every GTM team deals with: knowing which deals will slip before the quarter ends.\n\nCorvanta's product reads call recordings and CRM history to flag deals likely to slip in the current quarter. One of their customers, a 200-rep software company, says it cut its end-of-quarter forecast miss from 18% to 7%. I want to hear how that happened in practice.\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping he gets into the unglamorous parts:\n\n\u2192 What changed in how reps and managers run pipeline reviews\n\u2192 How much the flags depend on clean CRM data\n\u2192 What happens when the model and a rep's gut disagree\n\nForecast accuracy is one of those problems where a few points of improvement change how a whole company plans hiring, spend, and board conversations. I'm curious whether the results hold up outside a single customer story.\n\nIf you're going, say hi. I'd like to compare notes afterward on what's real and what's still slideware.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 411,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 549,
+  "output_tokens_details": {
+   "thinking_tokens": 155
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 411,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 549,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 411,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 411
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.007197
+}

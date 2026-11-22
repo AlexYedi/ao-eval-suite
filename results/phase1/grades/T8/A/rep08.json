@@ -1,0 +1,20 @@
+{
+ "type": "T8",
+ "rep": "rep08",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "The finding that 62% saw worse forecasts once reps stopped updating the CRM stuck with me.",
+  "reason": "The note cites the 62% statistic from the survey Ingrid presented."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005736
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

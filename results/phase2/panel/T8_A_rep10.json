@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep10",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008158,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% of RevOps leaders seeing worse forecasts after adding AI",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from her talk."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.0162,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% of RevOps leaders seeing worse forecasts",
+   "reason": "Under P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding from their talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032728,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% of RevOps leaders",
+   "reason": "P3 covers this exactly: the writer cites a percentage survey figure in the DM in their own voice, and it counts even though the figure is the recipient's own finding from her talk."
+  }
+ ]
+}

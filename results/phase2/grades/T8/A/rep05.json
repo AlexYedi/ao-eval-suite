@@ -1,0 +1,21 @@
+{
+ "type": "T8",
+ "arm": "A",
+ "rep": "rep05",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "your talk today on the 62% of RevOps leaders seeing worse forecasts after adding AI",
+  "reason": "The note cites the 62% percentage statistic from the speaker's survey findings."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0057280000000000005
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

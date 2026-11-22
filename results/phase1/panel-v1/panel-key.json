@@ -1,0 +1,46 @@
+{
+ "seed": 32307513559594,
+ "n_items": 34,
+ "accepted": [
+  "T8/A/rep09",
+  "T8/A/rep13"
+ ],
+ "raised": [
+  "T1/A/rep14",
+  "T5/A/rep01",
+  "T5/A/rep02",
+  "T5/A/rep03",
+  "T5/A/rep04",
+  "T5/A/rep05",
+  "T5/A/rep06",
+  "T5/A/rep07",
+  "T5/A/rep08",
+  "T5/A/rep09",
+  "T5/A/rep10",
+  "T5/A/rep11",
+  "T5/A/rep12",
+  "T5/A/rep13",
+  "T5/A/rep14",
+  "T5/A/rep15",
+  "T5/A/rep16",
+  "T6/A/rep10",
+  "T8/A/rep01",
+  "T8/A/rep02",
+  "T8/A/rep03",
+  "T8/A/rep04",
+  "T8/A/rep05",
+  "T8/A/rep06",
+  "T8/A/rep07",
+  "T8/A/rep08",
+  "T8/A/rep10",
+  "T8/A/rep11",
+  "T8/A/rep12",
+  "T8/A/rep14",
+  "T8/A/rep15",
+  "T8/A/rep16"
+ ],
+ "audit": [
+  "T8/A/rep09"
+ ],
+ "cost_usd": 1.84
+}

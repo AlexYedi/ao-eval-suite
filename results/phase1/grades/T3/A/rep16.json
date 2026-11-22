@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep16",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text contains none of the listed phrases; it uses 'I'm looking forward to' rather than 'I'm excited to', and has no 'game-changer' or 'revolutionary'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007492
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

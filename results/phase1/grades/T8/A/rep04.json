@@ -1,0 +1,20 @@
+{
+ "type": "T8",
+ "rep": "rep04",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "your talk on the 62% forecast accuracy drop after adding AI tools",
+  "reason": "The note cites the 62% percentage statistic from the speaker's survey findings."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005690000000000001
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

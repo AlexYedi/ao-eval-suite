@@ -1,0 +1,43 @@
+{
+ "id": "T6/A/rep10",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.009488,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The writer uses the listed filler phrase \"I'm curious\" in their own voice, which Precedent P4 rules is the habit even when mild and next to concrete content."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.018952,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The listed filler 'I'm curious' appears in the writer's own voice, and per P4 it counts as the habit even though it is mild and sits beside concrete content."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.038144,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "I'm curious where the real tradeoffs show up.",
+   "reason": "The listed filler phrase \"I'm curious\" appears in the writer's own voice, not in quoted task material, which P4 rules is the habit even when mild and beside concrete content."
+  }
+ ]
+}

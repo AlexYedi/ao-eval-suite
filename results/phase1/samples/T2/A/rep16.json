@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336719.105234,
+ "end": 1795336724.494026,
+ "secs": 5.39,
+ "text": "I'm heading to Corvanta's session in Midtown next Tuesday: \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but here's what has me curious. Corvanta's product reads a sales team's call recordings and CRM history, then flags the deals likely to slip in the current quarter. Anyone who's sat through a end-of-quarter forecast scramble knows why that matters.\n\nOne of their customers, a 200-rep software company, says it cut its forecast miss from 18% to 7%. That's a claim I want to hear unpacked. What changed in how the team ran pipeline reviews? How much of the gain came from the signals, and how much from reps and managers acting on them?\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping for the operator's view: how they roll this out, what the adoption looks like, and where it falls short.\n\nIf you work in sales ops, RevOps, or GTM leadership and forecast accuracy keeps you up at night, this looks like a useful way to spend an evening.\n\nWho else is going? I'd like to compare notes afterward.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 407,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 380,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 407,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 380,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 407,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 407
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005491000000000001
+}

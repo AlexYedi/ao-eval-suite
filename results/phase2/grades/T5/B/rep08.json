@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "B",
+ "rep": "rep08",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "your talk today stuck with me: the model was more accurate, but dispatchers overrode it",
+  "reason": "The note says the talk stuck with the writer and names a specific point from it, so it is not a content-free compliment like 'Love your work'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005962
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

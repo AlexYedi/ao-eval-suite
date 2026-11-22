@@ -1,0 +1,43 @@
+{
+ "id": "T8/D/rep09",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.008254000000000001,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat on forecasts getting worse after adding AI was striking.",
+   "reason": "Per P3, citing a percentage figure in a DM is the habit even when it is the recipient's own finding; P2 also covers the generic 'enjoyed your talk today' opener."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.015808000000000003,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat",
+   "reason": "Per P3, citing a percentage from the recipient's own survey in a DM is the habit, and the writer does so in their own voice."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.031904,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "The 62% stat",
+   "reason": "The writer cites a percentage survey figure in their own voice, and P3 rules this is the habit even when the figure is the recipient's own finding from her talk."
+  }
+ ]
+}

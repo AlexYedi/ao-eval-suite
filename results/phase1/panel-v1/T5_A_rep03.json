@@ -1,0 +1,43 @@
+{
+ "id": "T5/A/rep03",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006626,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "loved your talk today",
+   "reason": "\"loved your talk today\" is a generic compliment in the writer's own voice, though the next sentence adds specific detail that softens it, so the opener itself still counts as content-free validation."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.01442,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "The writer opens in their own voice with a content-free compliment that is a close variant of 'Love your work', and the specific detail in the next sentence does not cancel it."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.037704,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "loved your talk today",
+   "reason": "The writer, in their own voice, opens with a standalone generic compliment that is a close variant of 'Love your work'; the specific detail in the next sentence does not cancel it."
+  }
+ ]
+}

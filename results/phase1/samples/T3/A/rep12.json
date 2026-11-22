@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336673.720688,
+ "end": 1795336681.414204,
+ "secs": 7.69,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nThe question: what actually breaks when a company moves an AI agent from pilot to production, and who gets paged when it does?\n\nPilots are forgiving. Production isn't. I want to dig into what the on-call reality looks like.\n\nJoining me:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which sells evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nMy goal is specifics over slideware: failure modes, ownership, and the unglamorous stuff that only shows up after launch.\n\nThursday, 6:30 pm, at a co-working space in Chelsea. Free, and the RSVP link is in the comments.\n\nIf you're shipping agents, or getting paged for them, come say hi.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 1007,
+  "output_tokens_details": {
+   "thinking_tokens": 667
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1007,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.011749200000000001
+}

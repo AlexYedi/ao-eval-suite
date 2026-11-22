@@ -1,0 +1,20 @@
+{
+ "type": "T6",
+ "rep": "rep05",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "reason": "The post contains none of the phrases 'I'm curious', 'I'd love to hear', or 'I'm wondering'.",
+  "evidence": ""
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.006902
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

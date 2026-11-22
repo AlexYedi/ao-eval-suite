@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336671.98102,
+ "end": 1795336677.7263439,
+ "secs": 5.75,
+ "text": "Last night's Integration Debt Night, hosted by Kestrelmoor at their Flatiron office, was one of the more useful panels I've been to this year. About 60 of us packed in to hear how integration work actually holds up AI plans.\n\nA few things stuck with me:\n\nPriya Raman-Holt (VP Platform, Tallowbrook) said her team maintains 140 partner integrations with just three engineers. How? \"We stopped building connectors one by one and started publishing a spec. Partners build to it now.\"\n\nMarcus Feldane (founder, Quillary) argued that agent pilots fail at the integration seam, not at the model. His team's rule: wire up data access before choosing a model.\n\nThe room agreed. Marcus asked for a show of hands on who had an agent pilot stall on getting data access, and about 40 of the 60 raised one.\n\nThe best moment was a real disagreement. Priya thinks partners should own their connectors. Marcus thinks the platform has to own them or quality drifts. I left without a clear winner, and I think that's the right tension to keep chewing on.\n\nMy takeaway from the GTM side: if your AI story depends on customer data, your integration story is your product story.\n\nThanks to the Kestrelmoor team for hosting.\n\nWho owns the connector at your company, you or your partners?",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 680,
+  "output_tokens": 422,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 422,
+    "cache_read_input_tokens": 680,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005912
+}

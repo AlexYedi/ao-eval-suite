@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep12",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The only stacked-jargon phrase is the session title, which is quoted task material; the writer's own sentences are concrete and specific."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007587999999999999
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

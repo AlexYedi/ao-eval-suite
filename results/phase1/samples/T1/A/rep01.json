@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336537.6265569,
+ "end": 1795336545.907178,
+ "secs": 8.28,
+ "text": "Last night's Integration Debt Night at Kestrelmoor's Flatiron office was one of the more honest AI conversations I've been in lately. About 60 of us, two sharp panelists, very little hype.\n\nThe number that stuck: when the room was asked, about 40 of 60 raised a hand for having an agent pilot stall on getting data access. The model wasn't the problem.\n\nMarcus Feldane, founder of Quillary, said agent pilots fail at the integration seam, not at the model. His team's rule is to wire up data access before choosing a model.\n\nPriya Raman-Holt, VP Platform at Tallowbrook, explained how a team of three engineers maintains 140 partner integrations: \"We stopped building connectors one by one and started publishing a spec. Partners build to it now.\"\n\nThe best moment was their disagreement over who should own the connectors. Priya thinks partners should. Marcus thinks the platform has to, or quality drifts. I'm still chewing on that one.\n\nMy takeaway: before the next pilot kicks off, ask who owns data access and how it gets built.\n\nThanks to the Kestrelmoor team for hosting.\n\nHas an agent pilot at your company stalled on access? I'd like to hear how you got past it.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 1085,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 949,
+  "output_tokens_details": {
+   "thinking_tokens": 547
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 1085,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 949,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 1085,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 1085
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.013834
+}

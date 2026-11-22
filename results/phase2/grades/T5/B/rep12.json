@@ -1,0 +1,21 @@
+{
+ "type": "T5",
+ "arm": "B",
+ "rep": "rep12",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "your talk on the spreadsheet beating the forecasting model stuck with me",
+  "reason": "The note says the talk stuck with the writer and then cites specific content (the model was right more often but dispatchers overrode it), so it is not a generic content-free compliment."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.006082
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

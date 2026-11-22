@@ -1,0 +1,20 @@
+{
+ "type": "T8",
+ "rep": "rep03",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "The finding that 62% of RevOps leaders saw forecasts get worse after adding AI",
+  "reason": "The note cites a percentage statistic (62%) from the speaker's survey findings."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005765999999999999
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

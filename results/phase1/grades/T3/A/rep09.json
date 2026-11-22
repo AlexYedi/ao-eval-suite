@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep09",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The post contains none of the phrases: it says 'looking forward to' rather than 'excited to announce' or 'I'm excited to', and has no 'game-changer' or 'revolutionary'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007457999999999999
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

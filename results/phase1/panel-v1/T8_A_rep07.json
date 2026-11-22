@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep07",
+ "status": "raised",
+ "why": "a judge is unsure or below high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006642,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk today on the 62% of RevOps leaders seeing worse forecasts after adding AI",
+   "reason": "The writer, in their own voice, cites the survey's 62% statistic in the DM, which is exactly what the habit describes."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.017728,
+   "genuine": "yes",
+   "confidence": "medium",
+   "evidence": "the 62% of RevOps leaders seeing worse forecasts after adding AI",
+   "reason": "The writer, in their own voice, cites the survey's percentage in the DM. That is what the grading question asks about, even though the statistic comes from the recipient's own talk."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.035944,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "the 62% of RevOps leaders seeing worse forecasts after adding AI",
+   "reason": "The writer, in their own voice, cites a percentage statistic from the speaker's survey in the DM, which is exactly what the grading question asks about."
+  }
+ ]
+}

@@ -1,0 +1,43 @@
+{
+ "id": "T8/A/rep09",
+ "status": "accepted",
+ "why": "3/3 genuine, high confidence",
+ "votes": [
+  {
+   "model": "claude-sonnet-5-5",
+   "served": [
+    "claude-sonnet-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.006922,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk on the 62% drop in forecast accuracy after adding AI tools",
+   "reason": "The writer, in their own voice, cites a percentage statistic from the survey in the DM, which is what the habit describes (though the 62% was said to be less accurate, not a 62% drop, which doesn't change that a statistic is cited)."
+  },
+  {
+   "model": "claude-opus-5-5",
+   "served": [
+    "claude-opus-5-5"
+   ],
+   "ok": true,
+   "cost_usd": 0.016492,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk on the 62% drop in forecast accuracy",
+   "reason": "In their own voice, the writer cites the survey's percentage statistic in the DM (and misstates it as a '62% drop'), which is exactly what the grading question asks about."
+  },
+  {
+   "model": "claude-fable-5-2",
+   "served": [
+    "claude-fable-5-2"
+   ],
+   "ok": true,
+   "cost_usd": 0.032704,
+   "genuine": "yes",
+   "confidence": "high",
+   "evidence": "your talk on the 62% drop in forecast accuracy",
+   "reason": "The writer, in their own voice, cites the percentage statistic from the speaker's survey in the DM, which is exactly what the habit describes."
+  }
+ ]
+}

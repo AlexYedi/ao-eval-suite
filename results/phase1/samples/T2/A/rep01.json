@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336537.6266382,
+ "end": 1795336542.574975,
+ "secs": 4.95,
+ "text": "I'm heading to Corvanta's session in Midtown next Tuesday: \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but the problem underneath it is one every GTM team knows: the forecast call where a deal everyone swore was safe slips on the last day of the quarter.\n\nWhat Corvanta says it does is read call recordings and CRM history to flag deals likely to slip in the current quarter, before they do. One customer, a 200-rep software company, reports cutting its end-of-quarter forecast miss from 18% to 7%. I want to hear how that held up in practice.\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping he gets into the unglamorous parts: how reps actually react to deal flags, what happens when the signal in a call conflicts with what's in the CRM, and what changed in the forecast process once the tool was in place.\n\nIf you run sales ops, RevOps, or a GTM team where forecast accuracy is a recurring headache, this looks worth the trip.\n\nWho else is going? I'd be glad to compare notes afterward.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 991,
+  "cache_read_input_tokens": 0,
+  "output_tokens": 378,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 991,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 378,
+    "cache_read_input_tokens": 0,
+    "cache_creation_input_tokens": 991,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 991
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.007748
+}

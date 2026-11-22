@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336575.169238,
+ "end": 1795336581.445374,
+ "secs": 6.28,
+ "text": "Next Tuesday I'm heading to Midtown for Corvanta's session, \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nForecast misses at quarter end are one of the most expensive problems in B2B sales. Everyone has a pipeline number. Fewer teams know which deals in it are quietly slipping.\n\nCorvanta's product reads a team's call recordings and CRM history and flags deals likely to slip in the current quarter. One customer, a 200-rep software company, says it cut its end-of-quarter forecast miss from 18% to 7%. That's the kind of claim I want to hear unpacked in person.\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping he gets specific on:\n\n- What signals in calls and CRM data actually predict a slip\n- How reps and managers act on the flags without it becoming noise\n- What it took to roll this out across a team of that size\n\nIf you work in sales ops, RevOps, or forecasting, this looks worth the evening. I'll share what I learn afterward.\n\nWho else is going? Happy to meet up before or after.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 407,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 509,
+  "output_tokens_details": {
+   "thinking_tokens": 133
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 407,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 509,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 407,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 407
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.006781
+}

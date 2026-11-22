@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336685.040907,
+ "end": 1795336692.571396,
+ "secs": 7.53,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nPlenty of teams can get an AI agent working in a pilot. The harder question is what happens after it goes live, and who gets the 2 a.m. page when it misbehaves.\n\nThat's what we'll dig into with three people who have lived it:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which builds evaluation software for AI agents\n\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nI want to get into the unglamorous parts: what broke first, what monitoring missed, where ownership got fuzzy between engineering, product, and the business, and what they'd do differently.\n\n\ud83d\udccd Co-working space in Chelsea\n\ud83d\udd61 6:30 pm, next Thursday\n\ud83c\udf9f\ufe0f Free\n\nIf you're running agents in production, or about to, come hear it straight from the people on call. Bring your hardest questions.\n\nRSVP link in the comments.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 401,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 687,
+  "output_tokens_details": {
+   "thinking_tokens": 310
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 401,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 687,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 401,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 401
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0085332
+}

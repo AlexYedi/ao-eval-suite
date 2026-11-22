@@ -1,0 +1,20 @@
+{
+ "type": "T6",
+ "rep": "rep08",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text contains none of the phrases 'I'm curious', 'I'd love to hear', or 'I'm wondering'; the closest is 'I want to hear what they look like on the bill.'"
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007152
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}
