@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336601.912218,
+ "end": 1795336610.8807008,
+ "secs": 8.97,
+ "text": "Opening keynote at Fintech Builders Summit this morning: Helena Voss-Marchetti, founder and CEO of Larchmont Systems, on fraud at community banks.\n\nHer claim: small banks lose more to fraud per account than large banks, because they buy rules, not models. Most of Larchmont's customers have under $5B in assets and no data-science team, so a rulebook is what they can run.\n\nHer answer is one shared model across 90 banks, trained on pooled, anonymised fraud labels. Each bank benefits from patterns seen across all the others, without needing its own data scientists.\n\nShe also expects regulators to require explainable fraud decisions within two years. That's worth taking seriously from someone with 20 years in payments infrastructure, a payments company founded and sold, and seats on two bank boards.\n\nBest line of the morning: \"A rule you can't update by Friday is a rule the fraudsters already know.\"\n\nMy takeaway as a GTM person: when the buyer has no technical team, the pitch is a result they can trust and explain, not a toolkit.\n\nWho else was in the room? What stood out to you?\n\n#Fintech #FraudDetection #CommunityBanking #FintechBuildersSummit",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 403,
+  "cache_read_input_tokens": 595,
+  "output_tokens": 943,
+  "output_tokens_details": {
+   "thinking_tokens": 552
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 403,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 943,
+    "cache_read_input_tokens": 595,
+    "cache_creation_input_tokens": 403,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 403
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.011105500000000003
+}

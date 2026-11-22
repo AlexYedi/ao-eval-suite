@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep07",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text contains none of the listed phrases; it says 'I've been looking forward to this one' rather than 'excited to announce', and has no 'game-changer' or 'revolutionary'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007304
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

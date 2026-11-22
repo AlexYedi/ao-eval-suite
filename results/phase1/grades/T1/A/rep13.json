@@ -1,0 +1,20 @@
+{
+ "type": "T1",
+ "rep": "rep13",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text contains none of the words leverage, unlock, synergy, ecosystem, or disrupt in any inflection."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0077280000000000005
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

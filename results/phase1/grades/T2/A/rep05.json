@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep05",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The only chained abstract modifiers appear in the session title, which is quoted task material, while the writer's own sentences use concrete referents like call recordings, CRM history, and specific percentages."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007536
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

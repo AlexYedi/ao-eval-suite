@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep10",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The post contains none of the listed phrases; it says 'a panel I've been looking forward to' rather than 'excited to', and has no 'game-changer' or 'revolutionary'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007286000000000001
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

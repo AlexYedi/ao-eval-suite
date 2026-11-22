@@ -1,0 +1,20 @@
+{
+ "type": "T3",
+ "rep": "rep14",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no match"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The post contains none of the banned phrases (game-changer, game changing, revolutionary, 'excited to announce', 'I'm excited to')."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0070940000000000005
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

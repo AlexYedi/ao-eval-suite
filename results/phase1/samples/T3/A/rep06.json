@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336601.594629,
+ "end": 1795336609.7757928,
+ "secs": 8.18,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nEveryone has a demo that works. This session is about what happens after: what breaks when an AI agent moves from pilot to production, and who gets paged when it does.\n\nJoining me on the panel:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which builds evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nI'm curious how three very different seats (the business owner, the tooling builder, and the engineer on the hook) answer the same question. I suspect they won't fully agree, which should make for a good conversation.\n\n\ud83d\udccd Co-working space in Chelsea, NYC\n\ud83d\udd61 6:30 pm, next Thursday\n\ud83c\udf9f Free, RSVP link in the comments\n\nIf you're taking an agent past the pilot stage, or you've already been woken up by one at 2 am, come say hi. And if there's a question you want put to the panel, drop it below and I'll work it in.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 578,
+  "output_tokens_details": {
+   "thinking_tokens": 182
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 578,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.007459199999999999
+}

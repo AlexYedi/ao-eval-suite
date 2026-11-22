@@ -1,0 +1,20 @@
+{
+ "type": "T7",
+ "rep": "rep04",
+ "code": {
+  "verdict": "pass",
+  "evidence": "no observer opening"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "Hi Celeste, loved your podcast take on building territory plans around product usage instead of company size.",
+  "reason": "The note opens with a greeting and 'loved your podcast take', not a 'Saw you were' / 'Noticed you're' / 'I saw that you' construction."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.0027656
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336612.445791,
+ "end": 1795336620.685695,
+ "secs": 8.24,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild. I've been looking forward to this one.\n\nThe pilot demo always works. The harder questions start after launch: what breaks when a company moves an AI agent into production, and who gets paged when it does?\n\nJoining me on the panel:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which sells evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nThey come at the problem from three angles: leading AI inside a company, measuring whether agents actually work, and engineering in a world where payments have to be right. I expect a practical conversation about the gap between pilot and production.\n\n\ud83d\udccd Co-working space in Chelsea\n\ud83d\udd61 6:30 pm, next Thursday\n\ud83d\udcb8 Free\n\nRSVP link is in the comments. If you're shipping agents, or being asked to, come join us and bring your hardest question.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 1022,
+  "output_tokens_details": {
+   "thinking_tokens": 654
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1022,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0118992
+}

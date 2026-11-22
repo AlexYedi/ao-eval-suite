@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep07",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The only stacked abstract phrase is the session title, which is quoted task material, and the writer's own sentences use concrete referents such as call recordings, CRM history, and 18% to 7%."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.00844
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

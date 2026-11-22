@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336719.283083,
+ "end": 1795336727.992954,
+ "secs": 8.71,
+ "text": "Next Thursday I'm moderating Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nMost agent demos work. The trouble starts when a pilot becomes a production system, and someone has to answer the page at 2 a.m. We'll dig into what breaks in that move, and who gets paged when it does.\n\nThe panel:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which builds evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nI'm looking forward to hearing from people who run agents where mistakes carry real consequences, whether that's benefits decisions or payments. I want to push on ownership, evaluation, and what the on-call rotation looks like when the thing on call is partly a model.\n\n\ud83d\udccd Co-working space in Chelsea\n\ud83d\udd61 6:30 pm\n\ud83d\udcb8 Free\n\nIf you're building, buying, or supporting agents in production, come join us. RSVP link in the comments.\n\nWhat's the first thing that broke for you after launch? Tell me below and I'll bring the best ones to the panel.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 653,
+  "output_tokens_details": {
+   "thinking_tokens": 242
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 653,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0082092
+}

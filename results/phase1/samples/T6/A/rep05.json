@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336594.0679731,
+ "end": 1795336601.210548,
+ "secs": 7.14,
+ "text": "Tomorrow I'm at The Cost of Context, hosted by Sablewick Ventures in SoHo.\n\nThe topic: what long-context models actually cost to run in production, and when retrieval beats putting everything in the prompt. Big context windows look great in a demo. Production is where the math gets tested.\n\nOn the panel:\n- Mara Lindqvist-Obi, CTO of Orrenfield, which builds AI coding assistants for banks\n- Felipe Achterberg, head of infrastructure at Quillary\n\nHere's what I plan to ask:\n\n1. At what context length did your costs stop making sense?\n2. Have you replaced retrieval with long context anywhere, and did you go back?\n3. How do you test that the model used the right part of a long context?\n\nWhat would you ask? Drop your questions in the comments and I'll bring as many as I can to the room. I'll share what I hear afterward.\n\n#AI #LLM #RAG #LongContext",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 403,
+  "cache_read_input_tokens": 562,
+  "output_tokens": 738,
+  "output_tokens_details": {
+   "thinking_tokens": 433
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 403,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 738,
+    "cache_read_input_tokens": 562,
+    "cache_creation_input_tokens": 403,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 403
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0090522
+}

@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336572.927526,
+ "end": 1795336580.9005718,
+ "secs": 7.97,
+ "text": "Integration Debt Night at Kestrelmoor's Flatiron office was one of the more useful panels I've been to this year. About 60 of us came.\n\nWhat stuck with me: Tallowbrook maintains 140 partner integrations with three engineers. Priya Raman-Holt, their VP Platform, explained how: \"We stopped building connectors one by one and started publishing a spec. Partners build to it now.\"\n\nMarcus Feldane, founder of Quillary, argued that agent pilots fail at the integration seam, not at the model. His team's rule: wire up data access before choosing a model.\n\nThe room agreed. In a show of hands, about 40 of 60 said an agent pilot at their company had stalled on data access.\n\nThe best moment was a disagreement. Priya thinks partners should own their connectors. Marcus thinks the platform has to own them or quality drifts.\n\nIf your agent pilot is stuck, check data access before you swap models.\n\nThanks to Kestrelmoor for hosting.\n\nWhere do you land: partners or platform?",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 680,
+  "output_tokens": 1016,
+  "output_tokens_details": {
+   "thinking_tokens": 683
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 1016,
+    "cache_read_input_tokens": 680,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.011852
+}

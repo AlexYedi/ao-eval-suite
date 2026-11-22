@@ -1,0 +1,20 @@
+{
+ "type": "T8",
+ "rep": "rep16",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: 62%"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "The 62% stat on forecasts getting worse after adding AI",
+  "reason": "The note explicitly cites the 62% percentage statistic from the speaker's survey."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005646
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep14",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The only chain of abstract modifiers is the session title, which is quoted task material and which the writer immediately calls 'a mouthful' before giving concrete detail; the writer's own sentences stay concrete."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007572000000000001
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

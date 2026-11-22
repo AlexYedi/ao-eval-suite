@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep13",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The only buzzword-heavy phrase is the quoted session title, which is task material, and the writer's own sentences are concrete, naming call recordings, CRM history, and the 18% to 7% forecast miss."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.00852
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

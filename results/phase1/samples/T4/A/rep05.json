@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336590.826206,
+ "end": 1795336595.813791,
+ "secs": 4.99,
+ "text": "Opening keynote at Fintech Builders Summit this morning: Helena Voss-Marchetti, founder and CEO of Larchmont Systems, on why small banks are losing the fraud fight.\n\nHer credentials are hard to argue with: 20 years in payments infrastructure, a payments company founded and sold, and two bank board seats. Now she builds fraud detection for community banks.\n\nHer core claim: small banks lose more to fraud per account than large ones because they buy rules, not models. Most of her customers have under $5B in assets and no data-science team, so they can't build anything better themselves.\n\nLarchmont's answer is one shared model across 90 banks, trained on pooled, anonymised fraud labels. Each bank gets the benefit of patterns it would never see alone.\n\nHer prediction: regulators will require explainable fraud decisions within two years. Any vendor selling a black box to banks should be planning for that now.\n\nBest line of the morning: \"A rule you can't update by Friday is a rule the fraudsters already know.\"\n\nMy takeaway as a GTM person: in a market where buyers lack technical teams, the pitch is outcomes and speed, not architecture.\n\nWho else was in the room? What stood out to you?\n\n#Fintech #FraudDetection #CommunityBanking #FintechBuilders",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 405,
+  "cache_read_input_tokens": 595,
+  "output_tokens": 422,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 405,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 422,
+    "cache_read_input_tokens": 595,
+    "cache_creation_input_tokens": 405,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 405
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005903499999999999
+}

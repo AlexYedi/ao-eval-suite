@@ -1,0 +1,20 @@
+{
+ "type": "T5",
+ "rep": "rep12",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "enjoyed your talk today",
+  "reason": "\"enjoyed your talk today\" is a generic compliment close to \"Great talk\" and says nothing specific, even though the next sentence cites a particular point."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007608
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

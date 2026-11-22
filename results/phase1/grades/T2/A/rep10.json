@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep10",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "Operationalizing AI-native revenue intelligence at enterprise scale.",
+  "reason": "The only abstract-modifier-heavy phrase is the quoted session title, which is task material, and the writer's own sentences are concrete, naming specific products, numbers, and roles."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007942000000000001
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

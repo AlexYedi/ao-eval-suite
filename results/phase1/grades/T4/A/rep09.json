@@ -1,0 +1,20 @@
+{
+ "type": "T4",
+ "rep": "rep09",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The post describes the speaker by factual credentials (founder and CEO, 20 years in payments, two bank boards) and never uses 'thought leader', 'visionary', or 'industry leader' for her or the author."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007628
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

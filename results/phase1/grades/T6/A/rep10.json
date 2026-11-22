@@ -1,0 +1,20 @@
+{
+ "type": "T6",
+ "rep": "rep10",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: i'm curious"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "I'm curious where the real tradeoffs show up.",
+  "reason": "The text contains the phrase \"I'm curious\" in the closing paragraph."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.006958
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}

@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336683.852654,
+ "end": 1795336691.220343,
+ "secs": 7.37,
+ "text": "I'm heading to Corvanta's session next Tuesday in Midtown: \"Operationalizing AI-native revenue intelligence at enterprise scale.\"\n\nThe title is a mouthful, but the problem underneath it is one every GTM leader knows: deals that look fine in the CRM and then slip in the last two weeks of the quarter.\n\nCorvanta's product reads call recordings alongside CRM history to flag deals likely to slip in the current quarter. One customer, a 200-rep software company, says it cut its end-of-quarter forecast miss from 18% to 7%. That's the number I want to pressure-test.\n\nTomasz Arkwright-Bell, Corvanta's head of sales operations, is speaking. I'm hoping to hear from him on:\n\n- What signals in the calls actually predict a slip\n- How reps and managers respond when the tool flags their deal\n- What it took to get from pilot to a team of 200\n\nForecast accuracy is a board-level conversation right now, so a practitioner walking through how it works in practice is worth an evening.\n\nIf you're in New York and thinking about forecasting, come find me there. I'd like to compare notes.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 403,
+  "cache_read_input_tokens": 590,
+  "output_tokens": 373,
+  "output_tokens_details": {
+   "thinking_tokens": 0
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 403,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 373,
+    "cache_read_input_tokens": 590,
+    "cache_creation_input_tokens": 403,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 403
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.005405
+}

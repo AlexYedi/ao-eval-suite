@@ -1,0 +1,20 @@
+{
+ "type": "T4",
+ "rep": "rep02",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code match; blind grader checks variants the list cannot"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "",
+  "reason": "The text describes Helena's background factually (20 years in payments, founded and sold a company, two bank boards) without labeling her or the author a 'thought leader', 'visionary', or 'industry leader'."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007529999999999999
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

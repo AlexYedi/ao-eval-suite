@@ -1,0 +1,49 @@
+{
+ "ok": true,
+ "attempts": 1,
+ "start": 1795336575.546636,
+ "end": 1795336582.541806,
+ "secs": 7.0,
+ "text": "Next Thursday I'm moderating a panel: Agents in Production, Part 3, hosted by the NYC Applied AI Guild.\n\nThe question: what actually breaks when a company moves an AI agent from pilot to production, and who gets paged when it does?\n\nPilots are forgiving. Production has real customers, real data, and an on-call rotation. I want to hear what the gap looks like from people who have been on the other side of it.\n\nOn the panel:\n\n\u2192 Renata Okonkwo-Hale, head of AI at Brindlecove Health, a 400-person health-benefits company\n\u2192 Jonas Vellacourt, co-founder of Tessaline, which builds evaluation software for AI agents\n\u2192 Aiko Strandberg, staff engineer at Ferrowind, a freight-payments company\n\nA benefits company, an evaluation vendor, and a payments engineer should give us three very different answers about failure, ownership, and the 2 a.m. page.\n\nThursday, 6:30 pm, at a co-working space in Chelsea. Free.\n\nRSVP link in the comments. If there's a question you want put to the panel, send it my way and I'll work it in.",
+ "model_requested": "claude-sonnet-5-5",
+ "models_served": [
+  "claude-sonnet-5-5"
+ ],
+ "model_match": true,
+ "cli_version": "2.1.322",
+ "usage": {
+  "input_tokens": 2,
+  "cache_creation_input_tokens": 401,
+  "cache_read_input_tokens": 552,
+  "output_tokens": 746,
+  "output_tokens_details": {
+   "thinking_tokens": 373
+  },
+  "server_tool_use": {
+   "web_search_requests": 0,
+   "web_fetch_requests": 0
+  },
+  "service_tier": "standard",
+  "cache_creation": {
+   "ephemeral_1h_input_tokens": 401,
+   "ephemeral_5m_input_tokens": 0
+  },
+  "inference_geo": "global",
+  "iterations": [
+   {
+    "input_tokens": 2,
+    "output_tokens": 746,
+    "cache_read_input_tokens": 552,
+    "cache_creation_input_tokens": 401,
+    "cache_creation": {
+     "ephemeral_5m_input_tokens": 0,
+     "ephemeral_1h_input_tokens": 401
+    },
+    "type": "message"
+   }
+  ],
+  "speed": "standard",
+  "fallback_credit": null
+ },
+ "cost_usd": 0.0091232
+}

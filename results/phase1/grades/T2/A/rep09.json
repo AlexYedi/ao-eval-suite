@@ -1,0 +1,20 @@
+{
+ "type": "T2",
+ "rep": "rep09",
+ "code": {
+  "verdict": "blind",
+  "evidence": "no code predicate for this type"
+ },
+ "blind": {
+  "answer": "no",
+  "evidence": "The title is a mouthful, but the substance is something every GTM team deals with",
+  "reason": "The only chain of abstract modifiers is the session title, which is quoted task material, and the writer's own sentences stay concrete (call recordings, CRM history, 18% to 7%)."
+ },
+ "blind_verdict": "pass",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.007890000000000001
+ },
+ "final": "pass",
+ "code_blind_disagree": false
+}

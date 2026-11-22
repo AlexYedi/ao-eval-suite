@@ -1,0 +1,20 @@
+{
+ "type": "T5",
+ "rep": "rep04",
+ "code": {
+  "verdict": "fail",
+  "evidence": "matched: loved your talk"
+ },
+ "blind": {
+  "answer": "yes",
+  "evidence": "Dmitri, loved your talk today.",
+  "reason": "\"loved your talk today\" is a generic compliment with no specific content, though the following sentence adds specifics."
+ },
+ "blind_verdict": "fail",
+ "blind_meta": {
+  "model_match": true,
+  "cost_usd": 0.005784
+ },
+ "final": "fail",
+ "code_blind_disagree": false
+}
