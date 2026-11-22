@@ -245,8 +245,8 @@ Nothing in the write-up claims to be the first of anything. Prior art is cited i
 ## 15. Signature
 
 Signed by: Alex Yedibalian
-Date: TODO
-Registration hash: TODO
+Date: 2026-11-22
+Registration hash: 3dc0dfb1b18a9be982896e7144430c5bb96183e9f6a49eeb09b39c17bc8cf35d
 Manifest: `prereg/HASHES.json` (sha256 of this file with the hash and date fields blank, `failure-type-selection.md`, every file under `arms/`, `fixtures/` and `graders/`, the model id string, and the output of the pinned CLI's `--version` (`runner/PIN`))
 
 Until the three TODO fields above are filled, no study sample may be generated.
